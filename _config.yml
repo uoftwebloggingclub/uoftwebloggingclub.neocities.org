@@ -3,6 +3,8 @@ highlighter: rouge
 
 title: Weblogging Club
 
+permalink: /blog/:slug
+
 exclude:
   - README.md
 
