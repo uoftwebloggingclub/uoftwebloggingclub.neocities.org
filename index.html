@@ -1,14 +1,20 @@
 ---
 layout: default
-title: Jekyll Boilerplate
 ---
 
+<h1>{{ site.title }}</h1>
 
-<h1>{{ page.title }}</h1>
+<p>Welcome to the {{ site.title }}'s homepage.</p>
+<p>We are a club that fosters the creation and sharing of blogs and homebrew websites. If you are still learning the basics, you can develop your programming skills and creativity in a supportive envoriment. If you already have a website, you can have discussions with and draw inspiration from likeminded people (and get more eyes on your efforts).</p>
+<p>If you are new to the club, check out our <a href="/readme">README</a></p>
 
-{% for post in site.posts %}
+<h3>Recent Announcements</h3>
+
+{% for post in site.posts limit:5 %}
 
     {{ post.date | date: "%B %e, %Y" }}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ post.url }}">{{ post.title }}</a><br>
 
 {% endfor %}
+
+<br><a href="/archive">See all</a>

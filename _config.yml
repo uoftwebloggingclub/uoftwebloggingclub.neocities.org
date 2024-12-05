@@ -1,1 +1,12 @@
 markdown: kramdown
+highlighter: rouge
+
+title: Weblogging Club
+
+feed:
+  path: /announcements.atom
+
+plugins:
+  - jekyll-email-protect
+  - jekyll-target-blank
+  - jekyll-feed
