@@ -5,6 +5,7 @@ title: Weblogging Club
 
 permalink: /blog/:slug
 url: https://uoftwebloggingclub.neocities.org
+baseurl: /
 
 exclude:
   - README.md
