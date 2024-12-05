@@ -16,7 +16,7 @@ jobs:
 
       - name: Bundle Install
         run: |
-          gem install bundle
+          gem install --user-install bundle
           bundle install
 
       - name: Build
