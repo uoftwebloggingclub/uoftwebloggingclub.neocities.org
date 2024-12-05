@@ -3,6 +3,9 @@ highlighter: rouge
 
 title: Weblogging Club
 
+exclude:
+  - README.md
+
 feed:
   path: /announcements.atom
 
