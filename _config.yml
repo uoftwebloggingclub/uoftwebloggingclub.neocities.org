@@ -4,6 +4,7 @@ highlighter: rouge
 title: Weblogging Club
 
 permalink: /blog/:slug
+url: https://uoftwebloggingclub.neocities.org
 
 exclude:
   - README.md
