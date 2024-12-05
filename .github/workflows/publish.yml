@@ -1,0 +1,25 @@
+name: publish
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+
+  publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      
+      - name: Jekyll Build
+        run: jekyll exec build
