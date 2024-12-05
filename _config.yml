@@ -7,6 +7,7 @@ permalink: /blog/:slug
 
 exclude:
   - README.md
+  - CNAME
 
 feed:
   path: /announcements.atom
