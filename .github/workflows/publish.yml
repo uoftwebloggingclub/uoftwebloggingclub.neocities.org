@@ -16,7 +16,7 @@ jobs:
 
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3.22'
+          ruby-version: '3.4.0-preview1'
 
       - uses: lemonarc/jekyll-action@1.0.0
       
