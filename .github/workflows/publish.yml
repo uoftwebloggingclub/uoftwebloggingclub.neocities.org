@@ -15,10 +15,11 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.4.0-preview1'
 
-      - uses: lemonarc/jekyll-action@1.0.0
+      - name: Jekyll Build
+        run: |
+          bundle install
+          bundle exec jekyll build
       
       - uses: bcomnes/deploy-to-neocities@v3
         with:
