@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-07T16:11:53Z</updated>
+  <updated>2024-12-07T17:09:23Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
@@ -91,6 +91,36 @@
     <summary type="html">I installed OpenWRT on a router using the TFTP method, using a Linux system as the host.</summary>
     <author>
       <name>farazkaleemmalik</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Balderdasch&#39;s Spewing Pile has been updated.</title>
+    <updated>2024-11-24T00:34:41Z</updated>
+    <id>tag:neocities.org,2024-11-24:/site/balderdasch</id>
+    <link href="https://neocities.org/site/balderdasch?event_id=4371829" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Balderdasch&#39;s Spewing Pile has been updated.</title>
+    <updated>2024-11-17T14:12:44Z</updated>
+    <id>tag:neocities.org,2024-11-17:/site/balderdasch</id>
+    <link href="https://neocities.org/site/balderdasch?event_id=4348015" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Balderdasch&#39;s Spewing Pile has been updated.</title>
+    <updated>2024-11-16T04:21:21Z</updated>
+    <id>tag:neocities.org,2024-11-16:/site/balderdasch</id>
+    <link href="https://neocities.org/site/balderdasch?event_id=4343893" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>Unknown Author</name>
     </author>
   </entry>
 </feed>
