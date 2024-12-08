@@ -3,17 +3,19 @@
 ---
 
 html {
-    background-color: darkblue;
+    background-image: url("/assets/img/back-main.gif"); // https://bettysgraphics.neocities.org/images/backgrounds/187.GIF
+    background-repeat: repeat;
     text-align: center;
 }
 
 body {
     text-align: justify;
-    background: white;
-    width: 750px;
+    background: lightgray;
+    max-width: 750px;
     margin: 50px auto auto auto;
     padding: 50px 50px 50px 50px;
     border-radius: 1px;
+    border: 2px solid darkblue;
 }
 
 .date {
