@@ -17,13 +17,13 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
+          bundler-cache: false
       
       - name: Bundle install
         run: bundle install
       
       - name: Parse feed.xml
-        run: bundle exec generate_feed_includes.rb
+        run: ruby generate_feed_includes.rb
 
       - name: Jekyll Build
         run: bundle exec jekyll build
