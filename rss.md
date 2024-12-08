@@ -1,7 +1,0 @@
----
-permalink: /rss
----
-
-{% for member in site.members %}
-    {% if member.feed %} - {{ member.feed }} {% endif %}
-{% endfor %}
