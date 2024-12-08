@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-08T10:16:09Z</updated>
+  <updated>2024-12-08T11:07:54Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@tutamail.com</email>
   </author>
+  <entry>
+    <title>Were Live!</title>
+    <updated>2024-12-05T00:00:00Z</updated>
+    <id>tag:uoftwebloggingclub.neocities.org,2024-12-05:/blog/hello</id>
+    <content type="html">&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&#xA;&lt;p&gt;If you’re new, join the Discord until this site gets properly developed!&lt;/p&gt;</content>
+    <link href="https://uoftwebloggingclub.neocities.org/blog/hello" rel="alternate"></link>
+    <summary type="html">Hello World!</summary>
+  </entry>
   <entry>
     <title>Using Github Actions as janky serverless infrastructure</title>
     <updated>2024-12-01T00:00:00Z</updated>
