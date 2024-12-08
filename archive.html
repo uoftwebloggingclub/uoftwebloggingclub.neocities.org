@@ -1,0 +1,15 @@
+---
+permalink: /archive
+layout: default
+---
+
+<h1>Announcement Archive</h1>
+
+{% assign postsByMonth =
+    site.posts | group_by_exp:"post", "post.date | date: '%B %Y'" %}
+{% for month in postsByMonth %}
+    <h3>{{ month.name }}</h3>
+    {% for post in month.items %}
+        {{ post.date | date: "%B %e, %Y" }} <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.excerpt | strip_html}}<br>
+    {% endfor %}
+{% endfor %}
