@@ -19,13 +19,14 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
       
+      - name: Bundle install
+        run: bundle install
+      
       - name: Parse feed.xml
         run: ruby generate_feed_includes.rb
 
       - name: Jekyll Build
-        run: |
-          bundle install
-          bundle exec jekyll build
+        run: bundle exec jekyll build
       
       - uses: bcomnes/deploy-to-neocities@v3
         with:
