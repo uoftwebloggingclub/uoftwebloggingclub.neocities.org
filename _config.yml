@@ -1,7 +1,7 @@
 markdown: kramdown
 highlighter: rouge
 
-title: Weblogging Club
+title: Weblogging and Homebrew Website Club
 
 permalink: /blog/:slug
 url: https://uoftwebloggingclub.neocities.org
