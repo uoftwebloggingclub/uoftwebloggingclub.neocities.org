@@ -1,0 +1,20 @@
+---
+layout: default
+permalink: /dir
+---
+
+<h1>Web Directory</h1>
+
+<p>Click <a href="/rss">here</a> for just a list of RSS feeds</p>
+
+{% for member in site.members %}
+
+    <a href="{{ member.site_url }}">{{ member.site_url }}</a> - {{ member.name }}
+
+    {% if member.feed %}
+        <a class="rss" href="{{ member.feed }}"><img src="/assets/img/rss.png"></a>
+    {% endif %}
+
+    <br>
+
+{% endfor %}
