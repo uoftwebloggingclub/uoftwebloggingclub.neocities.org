@@ -2,11 +2,21 @@
 layout: default
 ---
 
+<marquee>
+    {% for item in site.recent_feeds %}
+        <a href="{{ item.link }}">{{ item.title }}</a> - {{ item.link | split: "//" | last | split: "/" | first }}
+    {% endfor %}
+</marquee>
+
 <h1>{{ site.title }}</h1>
 
 <p>Welcome to the {{ site.title }}'s homepage.</p>
 <p>We are a club that fosters the creation and sharing of blogs and homebrew websites. If you are still learning the basics, you can develop your programming skills and creativity in a supportive envoriment. If you already have a website, you can have discussions with and draw inspiration from likeminded people (and get more eyes on your efforts).</p>
 <p>If you are new to the club, check out our <a href="/readme">README</a></p>
+
+<h3>Contact</h3>
+
+<p>Join our Discord server <a href="https://discord.gg/3uY2eRTAcn">here</a>. Alternatively, email is <a href="mailto:{{ site.email | encode_email }}">here</a>
 
 <h3 style="display:inline-block">Recent Announcements</h3><a href="/announcements.atom" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
@@ -17,8 +27,12 @@ layout: default
 
 {% endfor %}
 
-<br><a href="/archive">See all</a>
+<br><a href="/archive">See all</a><br>
 
-<h3>Contact</h3>
+<h3 style="display:inline-block">Recent Member Feed Updates</h3><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
+<br>
+{% for post in site.recent_feeds %}
 
-<p>Join our Discord server <a href="https://discord.gg/3uY2eRTAcn">here</a>. Alternatively, email is <a href="mailto:{{ site.email | encode_email }}">here</a>
+    <a href="{{ post.link }}">{{ post.title }}</a> - {{ post.excerpt | strip_html}}<br>
+
+{% endfor %}

@@ -13,3 +13,7 @@ group :jekyll_plugins do
 end
 
 gem "webrick"
+
+gem "feed-normalizer", "~> 1.5"
+
+gem "fileutils", "~> 1.7"

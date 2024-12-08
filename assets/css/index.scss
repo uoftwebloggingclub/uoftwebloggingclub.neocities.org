@@ -19,6 +19,14 @@ body {
     border: 2px solid darkblue;
 }
 
+marquee {
+    margin-top: 15px;
+    color: grey;
+    a {
+        margin-left: 15px;
+    }
+}
+
 .date {
     color: gray;
     font-size: 80%;

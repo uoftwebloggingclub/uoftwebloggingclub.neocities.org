@@ -18,6 +18,9 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
+      
+      - name: Parse feed.xml
+        run: ruby generate_feed_includes.rb
 
       - name: Jekyll Build
         run: |

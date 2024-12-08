@@ -11,9 +11,11 @@ baseurl: /
 exclude:
   - README.md
   - runlocal.sh
+  - generate_feed_includes.rb
 
 collections:
   - members
+  - recent_feeds
 
 feed:
   path: /announcements.atom
