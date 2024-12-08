@@ -10,7 +10,6 @@ baseurl: /
 exclude:
   - README.md
   - runlocal.sh
-  - _members
 
 collections:
   - members
