@@ -24,3 +24,5 @@ plugins:
   - jekyll-email-protect
   - jekyll-target-blank
   - jekyll-feed
+  - liquid_reading_time
+  - liquid_pluralize
