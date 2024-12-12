@@ -1,9 +1,13 @@
 markdown: kramdown
 highlighter: rouge
 
+# Info
 title: Weblogging and Homebrew Website Club
 email: uoftwebloggingclub@gmail.com
+discord_invite: https://discord.gg/3uY2eRTAcn
+instagram: weblogging.homebrew.club
 
+# Jekyll Stuff
 permalink: /blog/:slug
 url: https://uoftwebloggingclub.neocities.org
 baseurl: /
