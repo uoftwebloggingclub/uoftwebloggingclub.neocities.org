@@ -2,10 +2,18 @@
 # front matter just so jekyll handles this file
 ---
 
+
 html {
     background-image: url("/assets/img/back-main.gif"); // https://bettysgraphics.neocities.org/images/backgrounds/187.GIF
     background-repeat: repeat;
     text-align: center;
+}
+
+
+@media (width: 320px) and (height: 212px), (width: 320px) and (height: 240px) {
+    html {
+        background: darkblue;
+    }
 }
 
 body {
