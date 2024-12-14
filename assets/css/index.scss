@@ -2,10 +2,18 @@
 # front matter just so jekyll handles this file
 ---
 
+
 html {
     background-image: url("/assets/img/back-main.gif"); // https://bettysgraphics.neocities.org/images/backgrounds/187.GIF
     background-repeat: repeat;
     text-align: center;
+}
+
+
+@media (width: 320px) {
+    html {
+        background: darkblue;
+    }
 }
 
 body {
@@ -26,6 +34,12 @@ marquee {
     a {
         margin-left: 15px;
     }
+}
+
+.highlight {
+    border: 2px dashed darkblue;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .icon {
