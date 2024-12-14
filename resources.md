@@ -29,14 +29,18 @@ The most important feature of your site if you want consistent readers! RSS allo
 
 - [Neocities HTML Course](https://neocities.org/tutorial/html/1) - An intro-level HTML tutorial in the form of a cute interactive webcomic about a cat
 
+## Assets
+
+- [Tilable Backgrounds](https://bettysgraphics.neocities.org/backgrounds) - Funky backgrounds! Hover over them to try them out!
+
+- [Tiled Backgrounds](https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs) - More BGs, this time arranged by color
+
 ## Search Engines
 
 - [Wiby.me](https://wiby.me/) - A traditional search engine that specifically only indexes 'smaller' websites
 
 - [Marginelia]( https://search.marginalia.nu/) - Similar to wiby but with an emphasis on serendipity over direct relevance. Good for finding stuff you didn't know you wanted!
 
-## Assets
+## Blogging Platforms
 
-- [Tilable Backgrounds](https://bettysgraphics.neocities.org/backgrounds) - Funky backgrounds! Hover over them to try them out!
-
-- [Tiled Backgrounds](https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs) - More BGs, this time arranged by color
+- [Bearblog](https://bearblog.dev/) - A privacy-first, no-nonsense, super-fast blogging platform
