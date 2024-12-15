@@ -6,18 +6,16 @@
 html {
     background-image: url("/assets/img/back-main.gif"); // https://bettysgraphics.neocities.org/images/backgrounds/187.GIF
     background-repeat: repeat;
-    text-align: center;
 }
 
 
-@media (width: 320px) {
+@media (width: 320px) { // Probably a 3DS
     html {
         background: darkblue;
     }
 }
 
 body {
-    text-align: justify;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: lightgray;
     max-width: 750px;
@@ -34,6 +32,10 @@ marquee {
     a {
         margin-left: 15px;
     }
+}
+
+.description {
+    text-align: justify;
 }
 
 .highlight {
