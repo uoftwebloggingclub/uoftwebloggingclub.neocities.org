@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-13T02:24:34Z</updated>
+  <updated>2024-12-14T11:31:23Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
-  <entry>
-    <title>Site Updates!</title>
-    <updated>2024-12-12T00:00:00Z</updated>
-    <id>tag:uoftwebloggingclub.neocities.org,2024-12-12:/blog/siteupdate</id>
-    <content type="html">&lt;p&gt;The site is now fully functional!&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Some features:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;  &lt;li&gt;Live RSS-based updates to the main page! Thanks to Github Actions :)&lt;/li&gt;&#xA;  &lt;li&gt;Web directory, Roadmap, Resources all migrated from Discord&lt;/li&gt;&#xA;  &lt;li&gt;A new instagram account! Check the &lt;a href=&#34;https://uoftwebloggingclub.neocities.org/&#34;&gt;main page&lt;/a&gt; for more details&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;p&gt;This site serves as the canonical source of info for the club, so be sure to subscribe to our &lt;a href=&#34;https://uoftwebloggingclub.neocities.org/announcements.atom&#34;&gt;announcements&lt;/a&gt; feed to stay up to date! (these announcements also get syndicated to #announcements on Discord).&lt;/p&gt;</content>
-    <link href="https://uoftwebloggingclub.neocities.org/blog/siteupdate" rel="alternate"></link>
-    <summary type="html">The site is now fully functional!</summary>
-  </entry>
-  <entry>
-    <title>Were Live!</title>
-    <updated>2024-12-05T00:00:00Z</updated>
-    <id>tag:uoftwebloggingclub.neocities.org,2024-12-05:/blog/hello</id>
-    <content type="html">&lt;p&gt;Hello World!&lt;/p&gt;&#xA;&#xA;&lt;p&gt;If you’re new, join the Discord until this site gets properly developed!&lt;/p&gt;</content>
-    <link href="https://uoftwebloggingclub.neocities.org/blog/hello" rel="alternate"></link>
-    <summary type="html">Hello World!</summary>
-  </entry>
   <entry>
     <title>Using Github Actions as janky serverless infrastructure</title>
     <updated>2024-12-01T00:00:00Z</updated>
