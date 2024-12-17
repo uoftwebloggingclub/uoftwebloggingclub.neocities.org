@@ -37,6 +37,6 @@ layout: default
 <br>
 {% for post in site.recent_feeds %}
 
-    <a href="{{ post.link }}">{{ post.title }}</a> - {{ post.excerpt | strip_html}}<br>
+    <a href="{{ post.link }}">{{ post.title }}</a> - {{ post.excerpt | strip_html | truncate: 75}}<br>
 
 {% endfor %}
