@@ -35,6 +35,8 @@ The most important feature of your site if you want consistent readers! RSS allo
 
 - [Tiled Backgrounds](https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs) - More BGs, this time arranged by color
 
+- [GifCities](https://gifcities.org/) - A GIF search engine that searches Geocities sites! Run by the Internet Archive.
+
 ## Search Engines
 
 - [Wiby.me](https://wiby.me/) - A traditional search engine that specifically only indexes 'smaller' websites
