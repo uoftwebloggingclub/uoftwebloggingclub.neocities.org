@@ -1,0 +1,19 @@
+{% comment %}
+To add a seasonal style,
+1. Compute the starting timestamp and assign it to a variable called event_ts
+2. Add an additional clause in the final if statement checking if the event is currently active
+3. Create a new html file in _includes for your styling
+4. Include it in the clause you created in step 3
+5. Optionally, you can also give your event a sitewide variable to modify things outside of your include (for example, a simple message on the homepage)
+Do not try comparing integer timestamps with each other, for some reason Jekyll cannot handle large numbers. Covert them to/leave them as strings.
+{% endcomment %}
+
+{% assign christmas_ts =  "December 10" | date: "%s" %}
+
+{% assign 15_days = 15 | times: 24 | times: 60 | times: 60 %}
+{% assign current_date_ts = "now" | date: "%s" %}
+
+{% if christmas_ts <= current_date_ts <= christmas_ts | integer | plus: 15_days | string %}
+    {% assign christmas = true %}
+    {% include christmas.html %}
+{% endif %}
