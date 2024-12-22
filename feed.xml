@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-17T03:27:55Z</updated>
+  <updated>2024-12-22T23:09:04Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
+  <entry>
+    <title>Exam Music</title>
+    <updated>2024-12-22T00:00:00Z</updated>
+    <id>tag:farazkaleemmalik.cyou,2024-12-22:/blog/2024/exam-music/</id>
+    <content type="html">&lt;p&gt;I’ve noticed I have specific a song stuck in my head for every exam I write, so I’m cataloging it (for fun and profit).&lt;/p&gt;&#xA;&#xA;&lt;p&gt;This page will be republished as I write more and more exams!&lt;/p&gt;&#xA;&#xA;&lt;h3 id=&#34;fall-2024&#34;&gt;Fall 2024&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;CSC343 (Intro to Databases) Final&lt;/strong&gt;: “Eighth Wonder” - Lemon Demon&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;CSCD27 (Computer and Network Security)&lt;/strong&gt;: Surprisingly none - I was too focused. &lt;em&gt;Before&lt;/em&gt; the exam it was “Amnesia Was Her Name” - Lemon Demon.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Overall, somewhat of an obvious pattern. I’m surprised at how many of these songs have animations on Youtube (I think all the lyrical ones from Spirit Phone are covered).&lt;/p&gt;</content>
+    <link href="https://farazkaleemmalik.cyou/blog/2024/exam-music/" rel="alternate"></link>
+    <summary type="html">I’ve noticed I have specific a song stuck in my head for every exam I write, so I’m cataloging it (for fun and profit).</summary>
+    <author>
+      <name>farazkaleemmalik</name>
+    </author>
+  </entry>
   <entry>
     <title>Using Github Actions as janky serverless infrastructure</title>
     <updated>2024-12-01T00:00:00Z</updated>
