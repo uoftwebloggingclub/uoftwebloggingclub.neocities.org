@@ -9,7 +9,7 @@ permalink: /resources
 
 ## RSS
 
-The most important feature of your site if you want consistent readers! RSS allows a program called an *RSS Reader* to automatically check for updates without going through the effort of visiting individual sites! Its also what our syndication pipeline (for example, the [Recent Feeds section](/) on the main page). 
+The most important feature of your site if you want consistent readers! RSS allows a program called an *RSS Reader* to automatically check for updates without going through the effort of visiting individual sites! Its also used in our syndication pipeline (for example, the [Recent Feeds section](/) on the main page). 
 
 -  [A Gentle Intro to RSS](https://derekkedziora.com/blog/rss-guide) - some motivation for RSS vs regular recommendation algorithms
 
@@ -46,3 +46,5 @@ The most important feature of your site if you want consistent readers! RSS allo
 ## Blogging Platforms
 
 - [Bearblog](https://bearblog.dev/) - A privacy-first, no-nonsense, super-fast blogging platform
+
+- [Mataroa](https://mataroa.blog/) - Another free minimalist blogging platform. Supports custom domains!
