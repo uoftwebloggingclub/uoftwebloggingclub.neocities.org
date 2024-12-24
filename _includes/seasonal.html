@@ -8,7 +8,7 @@ To add a seasonal style,
 Do not try comparing integer timestamps with each other, for some reason Jekyll cannot handle large numbers. Covert them to/leave them as strings.
 {% endcomment %}
 
-{% assign christmas_ts =  "December 10" | date: "%s" %}
+{% assign christmas_ts =  "December 12" | date: "%s" %}
 
 {% assign 15_days = 15 | times: 24 | times: 60 | times: 60 %}
 {% assign current_date_ts = "now" | date: "%s" %}
