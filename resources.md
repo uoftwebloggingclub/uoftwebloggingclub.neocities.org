@@ -37,6 +37,14 @@ The most important feature of your site if you want consistent readers! RSS allo
 
 - [GifCities](https://gifcities.org/) - A GIF search engine that searches Geocities sites! Run by the Internet Archive.
 
+## Static Hosts
+
+- [Neocities](https://neocities.org) - A free and adless webhost with a site discovery feature
+
+- [Nekoweb](https://nekoweb.org/) - A more recent neocities spinoff with more generous hosting limits (and free custom domains!)
+
+- [Github Pages](https://pages.github.com/) - Lets you host off of a git branch. Lots of tutorials and tooling support
+
 ## Search Engines
 
 - [Wiby.me](https://wiby.me/) - A traditional search engine that specifically only indexes 'smaller' websites
