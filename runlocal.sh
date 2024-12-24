@@ -5,8 +5,11 @@ if [[ ! $(ruby --version) ]]; then
 elif [[ ! $(bundle --version) ]]; then
     echo "Bundle not installed!"
     exit
+elif [[ ! $(faketime --version) ]]; then
+    echo "faketime not installed!"
+    exit
 else
-    echo "Ruby and Bundle installed!"
+    echo "All dependencies installed!"
 fi
 
 bundle check &> /dev/null
@@ -24,5 +27,17 @@ else
     echo "Feed data found!"
 fi
 
+if [[ "$@" =~ "christmas" ]]; then
+    date="dec 25"
+elif [[ "$@" =~ "newyears" ]]; then
+    date="jan 1"
+else
+    date="$(date)"
+fi
+
 # See https://github.com/jitinnair1/gradfolio/wiki/Local-Development
-xdg-open "http://localhost:4000" & bundle exec jekyll serve --trace && fg
+if [[ "$@" =~ "browser" ]]; then
+    xdg-open "http://localhost:4000" & faketime "$date" bundle exec jekyll serve --trace && fg
+else
+    faketime "$date" bundle exec jekyll serve --trace
+fi
