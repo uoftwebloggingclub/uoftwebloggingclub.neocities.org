@@ -9,11 +9,17 @@ Do not try comparing integer timestamps with each other, for some reason Jekyll 
 {% endcomment %}
 
 {% assign christmas_ts =  "December 12" | date: "%s" %}
+{% assign newyears_ts = "January 1" | date: "%s" %}
 
 {% assign 15_days = 15 | times: 24 | times: 60 | times: 60 %}
+{% assign 3_days = 3 | times: 24 | times: 60 | times: 60 %}
+{% assign 1_day = 1 | times: 24 | times: 60 | times: 60 %}
 {% assign current_date_ts = "now" | date: "%s" %}
 
 {% if christmas_ts <= current_date_ts <= christmas_ts | integer | plus: 15_days | string %}
     {% assign christmas = true %}
     {% include christmas.html %}
+{% elsif newyears_ts | integer | minus: 1_day | string <= current_date_ts <= newyears_ts | integer | plus: 3_days | string %}
+    {% assign newyears = true %}
+    {% include newyears.html %}
 {% endif %}
