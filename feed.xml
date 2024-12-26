@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-23T00:49:39Z</updated>
+  <updated>2024-12-26T06:14:29Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
+  <entry>
+    <title>First Post</title>
+    <updated>2024-12-25T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-25://blog/firstpost</id>
+    <link href="https://digitalyoshixi.github.io//blog/firstpost" rel="alternate"></link>
+    <summary type="html">This is my very first post and the first mark on this world. Hello yellow world</summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Second Post</title>
+    <updated>2024-12-25T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-25://blog/secondpost</id>
+    <link href="https://digitalyoshixi.github.io//blog/secondpost" rel="alternate"></link>
+    <summary type="html">nothing really of note here. this is a temporary post</summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
   <entry>
     <title>Exam Music</title>
     <updated>2024-12-22T00:00:00Z</updated>
