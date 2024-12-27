@@ -1,6 +1,5 @@
 ---
 layout: default
-permalink: /not_found
 ---
 
 # 404: Not Found
