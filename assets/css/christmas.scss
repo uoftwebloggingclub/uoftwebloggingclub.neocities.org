@@ -1,5 +1,6 @@
 ---
 ---
+@use 'sass:math';
 
 .lights {
     position: fixed;
@@ -30,8 +31,8 @@
         user-select: none;
         color: white;
         position: fixed;
-        left: random(100)+#{'%'};
-        animation: snowflake_fall (5+random(3))+s ease-out random(5)+s infinite normal forwards;
+        left: math.random(100)+#{'%'};
+        animation: snowflake_fall (5+math.random(3))+s ease-out math.random(5)+s infinite normal forwards;
         top: -5%;
     }
 }
