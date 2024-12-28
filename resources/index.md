@@ -57,3 +57,7 @@ The most important feature of your site if you want consistent readers! RSS allo
 - [Bearblog](https://bearblog.dev/) - A privacy-first, no-nonsense, super-fast blogging platform
 
 - [Mataroa](https://mataroa.blog/) - Another free minimalist blogging platform. Supports custom domains!
+
+## Club Development
+
+- [Intuition](https://farazkaleemmalik.cyou/projects/webloggingclub/) - Some intuition for the RSS pipeline and how all the relevant repos relate
