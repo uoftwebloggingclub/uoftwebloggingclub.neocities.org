@@ -61,3 +61,5 @@ The most important feature of your site if you want consistent readers! RSS allo
 ## Club Development
 
 - [Intuition](https://farazkaleemmalik.cyou/projects/webloggingclub/) - Some intuition for the RSS pipeline and how all the relevant repos relate
+
+- [Blogpost about rss-combine](https://farazkaleemmalik.cyou/blog/2024/githubactions1/) - Guide on how rss-combine was adapted for the pipeline. Slightly outdated
