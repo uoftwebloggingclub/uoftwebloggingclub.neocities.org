@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-26T20:05:51Z</updated>
+  <updated>2024-12-28T16:10:42Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
@@ -24,6 +24,16 @@
     <id>tag:digitalyoshixi.github.io,2024-12-26:/blog/how-to-brew-potions</id>
     <link href="https://digitalyoshixi.github.io/blog/how-to-brew-potions" rel="alternate"></link>
     <summary type="html">Share with all the wicked in your life</summary>
+    <author>
+      <name>yoshixi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>My Gateron Low Profile Keyboard Build Log</title>
+    <updated>2024-12-28T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-28:/blog/my-glp-build-log</id>
+    <link href="https://digitalyoshixi.github.io/blog/my-glp-build-log" rel="alternate"></link>
+    <summary type="html">Here I spend ridicuous time and energy to build an ergo mechanical keyboard</summary>
     <author>
       <name>yoshixi</name>
     </author>
