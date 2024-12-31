@@ -1,25 +1,22 @@
 {% comment %}
 To add a seasonal style,
-1. Compute the starting timestamp and assign it to a variable called event_ts
-2. Add an additional clause in the final if statement checking if the event is currently active
-3. Create a new html file in _includes for your styling
-4. Include it in the clause you created in step 3
-5. Optionally, you can also give your event a sitewide variable to modify things outside of your include (for example, a simple message on the homepage)
-Do not try comparing integer timestamps with each other, for some reason Jekyll cannot handle large numbers. Covert them to/leave them as strings.
+1. Add an additional clause in the final if statement checking if the event is currently active
+2. Create a new html file in _includes for your styling
+3. Include it in the clause you created in step 1
+4. Optionally, you can also give your event a sitewide variable to modify things outside of your include (for example, a simple message on the homepage)
 {% endcomment %}
 
-{% assign christmas_ts =  "December 12" | date: "%s" %}
-{% assign newyears_ts = "January 1" | date: "%s" %}
+{% assign current_year = "now" | date: "%Y" | minus: 0 %}
+{% assign current_month = "now" | date: "%m" | minus: 0 %}
+{% assign current_day = "now" | date: "%d" | minus: 0 %}
 
-{% assign 15_days = 15 | times: 24 | times: 60 | times: 60 %}
-{% assign 3_days = 3 | times: 24 | times: 60 | times: 60 %}
-{% assign 1_day = 1 | times: 24 | times: 60 | times: 60 %}
-{% assign current_date_ts = "now" | date: "%s" %}
-
-{% if christmas_ts <= current_date_ts <= christmas_ts | integer | plus: 15_days | string %}
+{% if current_month == 12 and 11 < current_day and current_day < 28 %}
     {% assign christmas = true %}
     {% include christmas.html %}
-{% elsif newyears_ts | integer | minus: 1_day | string <= current_date_ts <= newyears_ts | integer | plus: 3_days | string %}
+{% elsif current_month == 12 and current_day == 31 %}
+    {% assign newyears = true %}
+    {% include newyears.html %}
+{% elsif current_month == 1 and current_day < 4 %}
     {% assign newyears = true %}
     {% include newyears.html %}
 {% endif %}
