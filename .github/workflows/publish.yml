@@ -3,6 +3,8 @@ name: publish
 on:
   push:
     branches: [ "main" ]
+  schedule:
+    - cron: '0 0 * * *' # Trigger every day
 
 jobs:
 
