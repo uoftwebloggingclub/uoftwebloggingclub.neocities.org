@@ -20,7 +20,7 @@ else
     echo "All gems installed!"
 fi
 
-if [[ ! -d "_recent_feeds" ]]; then
+if [[ ! -d "_recent_feeds" ]] || [[ "$@" =~ "regen" ]]; then
     echo "Generating feed metadata"
     ruby generate_feed_includes.rb
 else
