@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/</id>
-  <updated>2024-12-28T16:10:42Z</updated>
+  <updated>2025-01-02T02:10:50Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/"></link>
   <author>
@@ -9,33 +9,14 @@
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
   <entry>
-    <title>First Post</title>
-    <updated>2024-12-25T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-25:/blog/firstpost</id>
-    <link href="https://digitalyoshixi.github.io/blog/firstpost" rel="alternate"></link>
-    <summary type="html">This is my very first post and the first mark on this world. Hello yellow world</summary>
+    <title>New Years Resolutions 2025</title>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <id>tag:farazkaleemmalik.cyou,2025-01-01:/blog/2025/newyears/</id>
+    <content type="html">&lt;p&gt;Better to put them to paper somewhere!&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;h3 id=&#34;post-here-at-around-twice-a-month&#34;&gt;Post here at around twice a month&lt;/h3&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;I’ll start off with the one most relevant to you - the reader! I think this is the sweet spot for someone like me who only does this for fun. Of these these two articles, some &lt;em&gt;may&lt;/em&gt; be relatively low effort (at least to write/compile like this one), but I think it would be productive to put my efforts into inclreasing quality at this pace rather than increasing the pace. Burnout is also something to consider. Sometimes less is more.&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;h3 id=&#34;get-better-at-remembering-names&#34;&gt;Get better at remembering names&lt;/h3&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;I’m not a names person. I have a comically short term memory for this type of information. My guess is because I remember stuff best by association (oh, the guy with the cool jacket), and the fact that names are never correlated with &lt;em&gt;anything&lt;/em&gt; else about a person, it’s hard to derive it from anything else about them. Still, I’m going to make a conscious effort this year to get better at remembering names - using whether memory tricks I can.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Not a very SMART goal - but I’m not sure how to turn this into a metric.&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;h3 id=&#34;write-more-code&#34;&gt;Write more code&lt;/h3&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Lame. I know. But with how many projects never leave the research phase in my backlog I think this is warranted. I’ve got so many projects where I have a proper understanding of the problem and my solution but I never start because… the tech stack is too annoying… or the boilerplate is too complicated… or the thought of actually &lt;em&gt;writing&lt;/em&gt; the code suddenly kills all motivation I had for it.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;For something measurable, I want to make at least 1 meaningful contribution (features, not commits!) to a side project every week. For code, this would look like activity on my Github pixel-thing. For more open ended stuff (based on experimentation/research), this would look like a writeup in the form of a devblog (like the &lt;a href=&#34;https://farazkaleemmalik.cyou/blog/2023/openwrt1&#34;&gt;OpenWRT&lt;/a&gt; post).&lt;/p&gt;</content>
+    <link href="https://farazkaleemmalik.cyou/blog/2025/newyears/" rel="alternate"></link>
+    <summary type="html">Better to put them to paper somewhere!</summary>
     <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>How to make potions at home for cheap</title>
-    <updated>2024-12-26T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-26:/blog/how-to-brew-potions</id>
-    <link href="https://digitalyoshixi.github.io/blog/how-to-brew-potions" rel="alternate"></link>
-    <summary type="html">Share with all the wicked in your life</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>My Gateron Low Profile Keyboard Build Log</title>
-    <updated>2024-12-28T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-28:/blog/my-glp-build-log</id>
-    <link href="https://digitalyoshixi.github.io/blog/my-glp-build-log" rel="alternate"></link>
-    <summary type="html">Here I spend ridicuous time and energy to build an ergo mechanical keyboard</summary>
-    <author>
-      <name>yoshixi</name>
+      <name>farazkaleemmalik</name>
     </author>
   </entry>
   <entry>
@@ -124,6 +105,36 @@
     <summary type="html">I installed OpenWRT on a router using the TFTP method, using a Linux system as the host.</summary>
     <author>
       <name>farazkaleemmalik</name>
+    </author>
+  </entry>
+  <entry>
+    <title>First Post</title>
+    <updated>2024-12-25T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-25:/blog/firstpost</id>
+    <link href="https://digitalyoshixi.github.io/blog/firstpost" rel="alternate"></link>
+    <summary type="html">This is my very first post and the first mark on this world. Hello yellow world</summary>
+    <author>
+      <name>yoshixi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>How to make potions at home for cheap</title>
+    <updated>2024-12-26T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-26:/blog/how-to-brew-potions</id>
+    <link href="https://digitalyoshixi.github.io/blog/how-to-brew-potions" rel="alternate"></link>
+    <summary type="html">Share with all the wicked in your life</summary>
+    <author>
+      <name>yoshixi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>My Gateron Low Profile Keyboard Build Log</title>
+    <updated>2024-12-28T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2024-12-28:/blog/my-glp-build-log</id>
+    <link href="https://digitalyoshixi.github.io/blog/my-glp-build-log" rel="alternate"></link>
+    <summary type="html">Here I spend ridicuous time and energy to build an ergo mechanical keyboard</summary>
+    <author>
+      <name>yoshixi</name>
     </author>
   </entry>
   <entry>
