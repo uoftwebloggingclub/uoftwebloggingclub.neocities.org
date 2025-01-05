@@ -12,7 +12,7 @@
     - No third party frontend dependencies! (JS, CSS packs, fonts)
     - Severely limit asset size
 
-- *Aggresively* compatible
+- *Aggressively* compatible
     - Should be usable on any reasonable screen size
     - Nintendo 3DS browser support
     - The site can be *optimised* for laptop/desktop, but must be *usable* everywhere
