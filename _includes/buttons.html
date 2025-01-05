@@ -1,0 +1,12 @@
+<div class="buttons">
+    <a href="{{ site.url }}">
+        <img src="/assets/img/site_buttons/site/webloggingclub.gif">
+    </a>
+    {% for member in site.members %}
+        {% if member.button %}
+        <a href="{{ member.site_url }}">
+            <img src="/assets/img/site_buttons/member/{{ member.button }}">
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>
