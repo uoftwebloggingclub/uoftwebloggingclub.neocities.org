@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Member Feed Archive</h1>
+
+{% for post in site.recent_feeds %}
+
+    <a href="{{ post.link }}">{{ post.title }}</a> -
+    {% if post.description.size > 0 %} 
+        {{ post.description | strip_html | truncate: 80}}
+    {% else %}
+        {{ post.excerpt | strip_html | truncate: 80}}
+    {% endif %}<br>
+
+{% endfor %}
