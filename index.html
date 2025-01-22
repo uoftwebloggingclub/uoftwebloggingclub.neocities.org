@@ -3,7 +3,7 @@ layout: default
 ---
 
 <marquee>
-    {% for item in site.recent_feeds %}
+    {% for item in site.recent_feeds limit: 10 %}
         <a href="{{ item.link }}">{{ item.title }}</a> - {{ item.link | split: "//" | last | split: "/" | first }}
     {% endfor %}
 </marquee>
