@@ -35,11 +35,11 @@ layout: default
 
 <h3 style="display:inline-block">Recent Member Feed Updates</h3><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
-{% for post in site.recent_feeds %}
+{% for post in site.recent_feeds limit: 10 %}
 
     <a href="{{ post.link }}">{{ post.title }}</a> -
     {% if post.description.size > 0 %} 
-        {{ post.description | truncate: 80}}
+        {{ post.description | strip_html | truncate: 80}}
     {% else %}
         {{ post.excerpt | strip_html | truncate: 80}}
     {% endif %}<br>
