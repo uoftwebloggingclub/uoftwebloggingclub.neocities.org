@@ -4,8 +4,9 @@ layout: default
 
 <h1>Member Feed Archive</h1>
 
-{% for post in site.recent_feeds %}
+{% for post in site.recent_feeds reversed %}
 
+    {{ post.last_updated | date: "%B %e, %Y" }} -
     <a href="{{ post.link }}">{{ post.title }}</a> -
     {% if post.description.size > 0 %} 
         {{ post.description | strip_html | truncate: 80}}

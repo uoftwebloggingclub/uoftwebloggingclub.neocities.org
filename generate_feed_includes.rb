@@ -18,6 +18,7 @@ feed.entries.sort_by { |item| item.last_updated }.reverse.each_with_index do |it
         metadata['title'] = item.title
         metadata['link'] = item.url
         metadata['description'] = item.description
+        metadata['date'] = item.last_updated
         f.write("#{metadata.to_yaml}---\n#{item.content}")
     end
 end
