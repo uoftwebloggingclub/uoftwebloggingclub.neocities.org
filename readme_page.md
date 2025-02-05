@@ -5,7 +5,7 @@ permalink: /readme
 
 # README
 
-- If you wish to register as a member (encouraged, helps us keep track of group size), email us your name with your UofT email. Subject should be "MEMBERSHIP". There will probably be more perks for registered members as the group matures. 
+- If you wish to register as a member (encouraged, helps us keep track of group size), email us your name, campus (Scarbrough, St. George, Mississauga) with your UofT email. Subject should be "MEMBERSHIP". There will probably be more perks for registered members as the group matures. 
 
 - If you already have a website (no matter what the state is as long as the link probably wont change), post it in 
 #⁠member-websites (on the Discord) or simply email us to get included in the [web directory](/dir). Be sure to include a descriptive name (see the linked directory for examples)
