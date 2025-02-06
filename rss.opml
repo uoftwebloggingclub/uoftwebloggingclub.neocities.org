@@ -1,0 +1,17 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head>
+    <title>UofT Weblogging and Homebrew Website Club Member Feeds</title>
+</head>
+<body>
+    <outline text="UofT WHWC Member Feeds" title="UofT WHWC Member Feeds">
+    {% for member in site.members %}
+        {% if member.feed %}
+        <outline type="rss" title="{{ member.name }}" text="{{ member.name }}" xmlUrl="{{ member.feed }}" htmlUrl="{{ member.feed }}"/>
+        {% endif %}
+    {% endfor %}
+    </outline>
+</body>
+</opml>
