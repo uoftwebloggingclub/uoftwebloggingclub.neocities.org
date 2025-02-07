@@ -16,5 +16,5 @@ layout: default
         - Fediverse?
         - [x] [Instagram](https://instagram.com/{{ site.instagram }})
 - Meetup - hoping for early Winter!
-    - [ ] Venue Booking
-    - [ ] Itinerary
+    - [x] Venue Booking - See Announcements
+    - [x] Itinerary - Casual
