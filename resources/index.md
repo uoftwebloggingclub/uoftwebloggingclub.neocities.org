@@ -26,7 +26,7 @@ The most important feature of your site if you want consistent readers! RSS allo
 
 ## HTML
 
-- [Learn How to Make Websites!](https://neocities.org/tutorials) - Neocities guide. A good link collection to other resources.
+- [Learn How to Make Websites!](https://neocities.org/tutorials) - Neocities guide. A good link collection to other resources
 
 - [Neocities HTML Course](https://neocities.org/tutorial/html/1) - An intro-level HTML tutorial in the form of a cute interactive webcomic about a cat
 
@@ -36,7 +36,7 @@ The most important feature of your site if you want consistent readers! RSS allo
 
 - [Tiled Backgrounds](https://goblin-heart.net/sadgrl/webmastery/downloads/tiledbgs) - More BGs, this time arranged by color
 
-- [GifCities](https://gifcities.org/) - A GIF search engine that searches Geocities sites! Run by the Internet Archive.
+- [GifCities](https://gifcities.org/) - A GIF search engine that searches Geocities sites! Run by the Internet Archive
 
 ## Static Hosts
 
