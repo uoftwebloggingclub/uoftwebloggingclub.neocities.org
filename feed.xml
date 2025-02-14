@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-02-13T19:08:01Z</updated>
+  <updated>2025-02-14T15:10:25Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
+  <entry>
+    <title>two new reviews</title>
+    <updated>2025-02-14T09:50:00Z</updated>
+    <id>tag:sonechka.neocities.org,2025-02-14:/movies</id>
+    <link href="https://sonechka.neocities.org/movies" rel="alternate"></link>
+    <summary type="html">fantastic planet, vivre sa vie</summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>site created!</title>
+    <updated>2025-02-04T21:00:00Z</updated>
+    <id>tag:sonechka.neocities.org,2025-02-04:</id>
+    <link href="https://sonechka.neocities.org" rel="alternate"></link>
+    <summary type="html">yay</summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
   <entry>
     <title>ISSessions CTF 2025 Google Sus Writeup</title>
     <updated>2025-02-10T00:00:00Z</updated>
@@ -336,16 +356,6 @@
     <summary type="html">Image source. (Not a spoiler) Science fiction falls under the umbrella of this blog, right? I think it does. This puzzle was my tribute...</summary>
     <author>
       <name>Elise Corbin</name>
-    </author>
-  </entry>
-  <entry>
-    <title>site created!</title>
-    <updated>2025-02-04T21:00:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-04:</id>
-    <link href="https://sonechka.neocities.org" rel="alternate"></link>
-    <summary type="html">yay</summary>
-    <author>
-      <name>Unknown Author</name>
     </author>
   </entry>
   <entry>
