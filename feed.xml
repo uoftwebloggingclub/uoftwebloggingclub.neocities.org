@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-02-14T15:10:25Z</updated>
+  <updated>2025-02-18T02:10:22Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
@@ -9,23 +9,14 @@
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
   <entry>
-    <title>two new reviews</title>
-    <updated>2025-02-14T09:50:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-14:/movies</id>
-    <link href="https://sonechka.neocities.org/movies" rel="alternate"></link>
-    <summary type="html">fantastic planet, vivre sa vie</summary>
+    <title>BroncoCTF 2025 QR Coded Writeup</title>
+    <updated>2025-02-17T00:00:00Z</updated>
+    <id>tag:farazkaleemmalik.cyou,2025-02-17:/blog/2025/bronco/</id>
+    <content type="html">&lt;p&gt;This writeup was requested multiple times on Discord so here it is. I solved this while playing with “BLIGHT BABIES” (now BYTE BABIES) at BroncoCTF 2025. This is a forensics problem which is definitely not my forte.&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;p&gt;This one should be really easy. All you have to do is scan a QR code!&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&#xA;&lt;p&gt;Attached is an image called “easy_scan.png”, which is exactly as shown.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/bronco/easy_scan.png&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;Scanning the QR code like the problem statement suggests gives you &lt;code class=&#34;language-plaintext highlighter-rouge&#34;&gt;bracco{thi5_1sn7_r34l}&lt;/code&gt;. Not very helpful. I decided to plug the image into &lt;a href=&#34;https://www.aperisolve.com/&#34;&gt;AperiSolve&lt;/a&gt; to give some more info.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/bronco/aperisolve.png&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;I noticed that all layers except the first were identical. This makes sense since the image appeared to be white and black, which are  #ffffff and #000000 respectively. Thus, there was only variation in the least significant bits, which we could see best in the superimposed image in the top left corner. Of course, these variations are impossible to notice on the final image.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;One thing to notice is that the colourful superposition actually forms a valid, &lt;em&gt;but different&lt;/em&gt; QR code. For me, the tell was the clear existence of the 3 large squares and the smaller square near the bottom right (yeah I watched that &lt;a href=&#34;https://www.youtube.com/watch?v=w5ebcowAJD8&amp;amp;pp=ygURcXIgY29kZSBleHBsYWluZWQ%3D&#34;&gt;Veritasium video&lt;/a&gt;).&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/bronco/qr.png&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;From there, I just had to convert the colorful image into black and white. This can be done with a simple ImageMagick command.&lt;/p&gt;&#xA;&#xA;&lt;div class=&#34;language-plaintext highlighter-rouge&#34;&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;highlight&#34;&gt;&lt;code&gt;magick qr.png -alpha off -threshold 99% o.png&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/bronco/o.png&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Scanning the code (or in my case, uploading it to some random QR code decoder site) gives us the flag, &lt;code class=&#34;language-plaintext highlighter-rouge&#34;&gt;bronco{th1s_0n3_i5}&lt;/code&gt;.&lt;/p&gt;</content>
+    <link href="https://farazkaleemmalik.cyou/blog/2025/bronco/" rel="alternate"></link>
+    <summary type="html">This writeup was requested multiple times on Discord so here it is. I solved this while playing with “BLIGHT BABIES” (now BYTE BABIES) at BroncoCTF 2025. This is a forensics problem which is definitely not my forte.</summary>
     <author>
-      <name>Unknown Author</name>
-    </author>
-  </entry>
-  <entry>
-    <title>site created!</title>
-    <updated>2025-02-04T21:00:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-04:</id>
-    <link href="https://sonechka.neocities.org" rel="alternate"></link>
-    <summary type="html">yay</summary>
-    <author>
-      <name>Unknown Author</name>
+      <name>farazkaleemmalik</name>
     </author>
   </entry>
   <entry>
@@ -128,14 +119,23 @@
     </author>
   </entry>
   <entry>
-    <title>Rant on Android Rooting</title>
-    <updated>2023-10-24T00:00:00Z</updated>
-    <id>tag:farazkaleemmalik.cyou,2023-10-24:/blog/2023/lineage1/</id>
-    <content type="html">&lt;p&gt;After some piss-poor battery performance, I decided root my phone and install LineageOS. It wasn’t as simple as I thought.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;It’s common knowledge that phones nowadays are the opposite of desktop PCs: instead of being modular, customizable, and flexible, they are monolithic, functionally fixed, and bolted down. There are a few initiatives that aim to change that, the most interesting for me being the Pinephone that ditches Android altogether and runs raw Linux, giving you your unified “Desktop-Phone” OS Apple used to proudly boast.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/lineageos/apple.png&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;But the Pinephone, while great for its current price, leaves a lot to be desired specs wise.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;img src=&#34;https://farazkaleemmalik.cyou/assets/images/lineageos/pinephone.gif&#34; alt=&#34;&#34;/&gt;&lt;/p&gt;&#xA;&#xA;&lt;p&gt;Regardless of what my next phone will be (it will be a Pinepone), this post is about my current phone - a Samsung Galaxy A51. I mentioned this before - rooting this phone is hard. So far the steps I’ve had to take are&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;  &lt;li&gt;Factory reset my phone (I already backed up everything important)&lt;/li&gt;&#xA;  &lt;li&gt;Mess with time and date settings to disable Knox&lt;/li&gt;&#xA;  &lt;li&gt;Flash stock firmware a dozen times&lt;/li&gt;&#xA;  &lt;li&gt;Move down the chain of prerequisite software ~4 times&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;p&gt;I list my some of my major grievances.&lt;/p&gt;&#xA;&#xA;&lt;ol&gt;&#xA;  &lt;li&gt;Instructions, even coming from semi-trustworthy sources (XDA forums, TWRP’s official page), are often wildly conflicting, and generally don’t mention the significance of any given step. This makes it very difficult to determine if the step I’m struggling with can be skipped for a minor cost (like no GApps) or is absolutely essential to not bricking my phone. It also makes it very difficult to cross reference. I blame these on Samsung for always adding another hurdle to the custom ROM installation process every update, outdating many tutorials and guides. The best case for me would have been to not upgrade my software for the past year.&lt;/li&gt;&#xA;  &lt;li&gt;Assumptions of prerequisite software. Currently the chain of software I need to install is &lt;code class=&#34;language-plaintext highlighter-rouge&#34;&gt;Custom ROM with patched storage capacity -&amp;gt; Magisk -&amp;gt; TWRP -&amp;gt; LineageOS&lt;/code&gt;&#xA;But all of the official installation guides recommend installing them with software up the chain! I get that no one wants to deal with some guy trying to sue them in Malaysia for bricking his $100 phone, but I think that more work needs to be put into guides that take you from nothing to some useful result - in my case LineageOS. This is hampered by the fact that guides for each model must be different - which again Samsung is to blame. amd64 doesn’t have this problem!&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;&lt;p&gt;Anyways, I will make an update one I have this dang thing installed.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update (27/12/2023)&lt;/em&gt;&lt;/strong&gt;: I made the classic mistake of updating something that Just Works™ and updating firmware to the latest security patch (to get rid of an annoying notification). Great if I want the phone to be useless to someone who stole it, but bad for just about all types of jailbreaking. There is a Github discussion for it &lt;a href=&#34;https://github.com/topjohnwu/Magisk/pull/7181&#34;&gt;here&lt;/a&gt; but I don’t expect to have it fixed anytime soon. I will have to wait a little while longer it seems.&lt;/p&gt;</content>
-    <link href="https://farazkaleemmalik.cyou/blog/2023/lineage1/" rel="alternate"></link>
-    <summary type="html">After some piss-poor battery performance, I decided root my phone and install LineageOS. It wasn’t as simple as I thought.</summary>
+    <title>two new reviews</title>
+    <updated>2025-02-14T09:50:00Z</updated>
+    <id>tag:sonechka.neocities.org,2025-02-14:/movies</id>
+    <link href="https://sonechka.neocities.org/movies" rel="alternate"></link>
+    <summary type="html">fantastic planet, vivre sa vie</summary>
     <author>
-      <name>farazkaleemmalik</name>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>site created!</title>
+    <updated>2025-02-04T21:00:00Z</updated>
+    <id>tag:sonechka.neocities.org,2025-02-04:</id>
+    <link href="https://sonechka.neocities.org" rel="alternate"></link>
+    <summary type="html">yay</summary>
+    <author>
+      <name>Unknown Author</name>
     </author>
   </entry>
   <entry>
