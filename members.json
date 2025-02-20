@@ -1,0 +1,16 @@
+---
+---
+{   
+    "source": "{{ site.url }}{{ page.url }}",
+    "date": "{{ 'now' | date: '%-m/%d/%Y' }}",
+    "members" : [
+        {% for member in site.members %}
+            {
+                {% if member.feed %}"feed": "{{ member.feed }}", {% endif %}
+                {% if member.button %}"button": "{{ member.button }}", {% endif %}
+                "name": "{{ member.name }}",
+                "url": "{{ member.site_url }}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}
