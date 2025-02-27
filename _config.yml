@@ -16,6 +16,7 @@ exclude:
   - README.md
   - runlocal.sh
   - generate_feed_includes.rb
+  - _members/example.md
 
 collections:
   - members
