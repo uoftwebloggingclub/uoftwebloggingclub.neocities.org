@@ -20,16 +20,13 @@
 ## Development
 
 ### To add a member
+1. Fork + locally clone the repository
 
-Create the relevant markdown file in ```_members```. YAML fields ```name``` and ```site_url``` are the only mandatory fields.
+2. Copy the example file located at ```_members/example.md``` and rename it to ```<your domain>.md```
 
-### To add an RSS feed
+3. Read the data fields and change the entries. You can use existing entries as examples. If you do not need an *optional* field, remove it (for example, if you do not have an RSS feed, remove the ```feed:``` line entirely)
 
-In the markdown file for the relevant member in ```_members```, create a YAML field called ```feed``` and set it to the feed link.
-
-### To add a site button
-
-First, place the button image in ```assets/img/site_buttons/member/```. In the markdown file for the relevant member in ```_members```, create a YAML field called ```button``` and set it to the file name (not the path!).
+4. Open a PR
 
 ### To add an announcement
 
