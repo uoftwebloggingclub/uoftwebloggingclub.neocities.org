@@ -2,15 +2,15 @@
 ---
 {   
     "source": "{{ site.url }}{{ page.url }}",
-    "date": "{{ 'now' | date: '%-m/%d/%Y' }}",
+    "timestamp": "{{ 'now' | date: '%s' }}", {% comment %} Seconds since epoch {% endcomment %}
     "members" : [
         {% for member in site.members %}
             {
-                {% if member.feed %}"feed": "{{ member.feed }}", {% endif %}
-                {% if member.button %}"button": "{{ member.button }}", {% endif %}
+                "feed": {% if member.feed %}"{{ member.feed }}"{% else %}null{% endif %},
+                "button": {% if member.button %}"{{ member.button }}"{% else %}null{% endif %},
                 "name": "{{ member.name }}",
                 "url": "{{ member.site_url }}"
-            }{% unless forloop.last %},{% endunless %}
+            }
         {% endfor %}
     ]
 }
