@@ -7,7 +7,7 @@
         {% for member in site.members %}
             {
                 "feed": {% if member.feed %}"{{ member.feed }}"{% else %}null{% endif %},
-                "button": {% if member.button %}"{{ member.button }}"{% else %}null{% endif %},
+                "button": {% if member.button %}"{{ site.url }}/assets/img/site_buttons/member/{{ member.button }}"{% else %}null{% endif %},
                 "name": "{{ member.name }}",
                 "url": "{{ member.site_url }}"
             }
