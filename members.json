@@ -7,7 +7,8 @@
         {% for member in site.members %}
             {
                 "feed": {% if member.feed %}"{{ member.feed }}"{% else %}null{% endif %},
-                "button": {% if member.button %}"{{ site.url }}/assets/img/site_buttons/member/{{ member.button }}"{% else %}null{% endif %},
+                "site_button_url": {% if member.button %}"{{ site.url }}/assets/img/site_buttons/member/{{ member.button }}"{% else %}null{% endif %},
+                "source_button_url": {% if member.button_url %}"{{ member.button_url }}"{% else %}null{% endif %},
                 "name": "{{ member.name }}",
                 "url": "{{ member.site_url }}"
             }{% unless forloop.last %},{% endunless %}
