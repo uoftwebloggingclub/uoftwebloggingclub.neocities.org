@@ -80,3 +80,15 @@ marquee {
         text-decoration: none;
     }
 }
+
+@media (max-width: 600px) {
+    .big-cal {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .small-cal {
+        display: none;
+    }
+}
