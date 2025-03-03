@@ -81,6 +81,11 @@ marquee {
     }
 }
 
+.external-link:not(:has(img))::after {
+    content: " ➚";
+    font-size: 10px;
+}
+
 @media (max-width: 600px) {
     .big-cal {
         display: none;

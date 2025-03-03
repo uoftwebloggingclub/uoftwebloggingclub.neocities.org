@@ -8,6 +8,10 @@ discord_invite: https://discord.gg/3uY2eRTAcn
 instagram: weblogging.homebrew.club
 google_calander_code: ZjIxNzE2OWY5OWMzNDZkMjhhMmZmODFjMGNjNzM2ZGRlYzQwODc4NTE0ZmM1YzQ5NDE5ZWEyZGU0Mjc1ODczMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
 
+# Mark external links
+target-blank:
+    add_css_classes: external-link
+
 # Jekyll Stuff
 permalink: /blog/:slug
 url: https://uoftwebloggingclub.neocities.org
