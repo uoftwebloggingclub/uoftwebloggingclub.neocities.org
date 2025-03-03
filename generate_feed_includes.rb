@@ -1,6 +1,7 @@
 require 'feed-normalizer'
 require 'fileutils'
 require 'yaml'
+require 'uri/http'
 
 dir_name = "_recent_feeds"
 feed_name = "./feed.xml"
@@ -19,6 +20,8 @@ feed.entries.sort_by { |item| item.last_updated }.reverse.each_with_index do |it
         metadata['link'] = item.url
         metadata['description'] = item.description
         metadata['date'] = item.last_updated
+        metadata['host'] = URI.parse(item.url).host
+
         f.write("#{metadata.to_yaml}---\n#{item.content}")
     end
 end
