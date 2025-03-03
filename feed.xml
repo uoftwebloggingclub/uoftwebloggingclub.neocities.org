@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-03-03T14:16:12Z</updated>
+  <updated>2025-03-03T16:19:52Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
@@ -13,7 +13,7 @@
     <updated>2025-03-03T14:00:00Z</updated>
     <id>tag:sonechka.neocities.org,2025-03-03:/blog/oscars</id>
     <link href="https://sonechka.neocities.org/blog/oscars" rel="alternate"></link>
-    <summary type="html">first blog post, fun and cool and exciting</summary>
+    <summary type="html">first blog post</summary>
     <author>
       <name>Marta</name>
     </author>
