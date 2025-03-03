@@ -9,12 +9,13 @@ layout: default
 {% for month in postsByMonth %}
     <h3>{{ month.name }}</h3>
     {% for post in month.items %}
-        <a href="{{ post.link }}">{{ post.title }}</a> -
+        <a href="{{ post.link }}">{{ post.title }}</a>
+        <p class="flavor">{{ post.host }}</p>
         {% if post.description.size > 0 %} 
-            {{ post.description | strip_html | truncate: 80}}
+            {{ post.description | strip_html | truncate: 100}}
         {% else %}
-            {{ post.excerpt | strip_html | truncate: 80}}
-        {% endif %}<br>
+            {{ post.excerpt | strip_html | truncate: 100}}
+        {% endif %}<br><br>
     {% endfor %}
 {% endfor %}
 
