@@ -28,7 +28,7 @@ collections:
   - recent_feeds
 
 feed:
-  path: /announcements.atom
+  path: /announcements.xml
 
 plugins:
   - jekyll-email-protect
