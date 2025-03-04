@@ -40,6 +40,7 @@ You can query [`/members.json`](/members.json) for a JSON representation of club
       "name": "msaifi's personal site",
       "url": "https://msaifi.com/"
     }
+  ]
 }
 ```
 
