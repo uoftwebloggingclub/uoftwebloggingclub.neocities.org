@@ -39,6 +39,18 @@ marquee {
     }
 }
 
+pre {
+    border: 2px greenyellow;
+    background-color: #222;
+    color: greenyellow;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+code {
+  font-size: 1.2em;
+}
+
 .description {
     text-align: justify;
 }
