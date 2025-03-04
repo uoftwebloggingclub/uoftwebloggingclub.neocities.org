@@ -4,7 +4,7 @@ layout: default
 
 # Resources
 
-<div class="highlight" markdown="1">
+<div class="spotlight" markdown="1">
 
 ## RSS
 
