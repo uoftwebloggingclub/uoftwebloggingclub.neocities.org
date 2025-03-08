@@ -1,53 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-03-03T16:19:52Z</updated>
+  <updated>2025-03-08T02:27:59Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
-  <entry>
-    <title>Oscars 2025: Forced to see Sean Baker happy</title>
-    <updated>2025-03-03T14:00:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-03-03:/blog/oscars</id>
-    <link href="https://sonechka.neocities.org/blog/oscars" rel="alternate"></link>
-    <summary type="html">first blog post</summary>
-    <author>
-      <name>Marta</name>
-    </author>
-  </entry>
-  <entry>
-    <title>One new review</title>
-    <updated>2025-02-25T12:40:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-25:/books</id>
-    <link href="https://sonechka.neocities.org/books" rel="alternate"></link>
-    <summary type="html">Anti-Oedipus: Capitalism and Schizophrenia</summary>
-    <author>
-      <name>Marta</name>
-    </author>
-  </entry>
-  <entry>
-    <title>two new reviews</title>
-    <updated>2025-02-14T09:50:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-14:/movies</id>
-    <link href="https://sonechka.neocities.org/movies" rel="alternate"></link>
-    <summary type="html">fantastic planet, vivre sa vie</summary>
-    <author>
-      <name>Marta</name>
-    </author>
-  </entry>
-  <entry>
-    <title>site created!</title>
-    <updated>2025-02-04T21:00:00Z</updated>
-    <id>tag:sonechka.neocities.org,2025-02-04:</id>
-    <link href="https://sonechka.neocities.org" rel="alternate"></link>
-    <summary type="html">yay</summary>
-    <author>
-      <name>Marta</name>
-    </author>
-  </entry>
   <entry>
     <title>BroncoCTF 2025 QR Coded Writeup</title>
     <updated>2025-02-17T00:00:00Z</updated>
