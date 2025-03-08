@@ -1,4 +1,5 @@
 #!/bin/bash
+
 if [[ ! $(ruby --version) ]]; then 
     echo "Ruby not installed!"
     exit
@@ -37,7 +38,7 @@ fi
 
 # See https://github.com/jitinnair1/gradfolio/wiki/Local-Development
 if [[ "$@" =~ "browser" ]]; then
-    xdg-open "http://localhost:4000" & faketime "$date" bundle exec jekyll serve --trace && fg
+    xdg-open "http://localhost:4000" & faketime "$date" bundle exec jekyll serve serve --host 0.0.0.0 --trace && fg
 else
-    faketime "$date" bundle exec jekyll serve --trace
+    faketime "$date" bundle exec jekyll serve --host 0.0.0.0 --trace
 fi

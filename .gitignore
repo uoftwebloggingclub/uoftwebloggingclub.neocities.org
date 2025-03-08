@@ -8,7 +8,3 @@ vendor/
 
 Gemfile.lock
 _recent_feeds
-
-# Extra files
-flake.lock
-flake.nix

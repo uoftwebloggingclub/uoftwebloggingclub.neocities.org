@@ -1,0 +1,11 @@
+services:
+  whwc-site:
+    build:
+      context: .
+    ports:
+      # Expose port 4000
+      - "4000:4000"
+    volumes:
+      # Mount current directory to /app in the container. Changes made
+      # to files in the directory should be reflected.
+      - .:/app
