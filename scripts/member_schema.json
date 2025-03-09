@@ -12,6 +12,10 @@
         "format": "uri",
         "description": "A URL for your website. Do not include a trailing backslash."
       },
+      "date_listed": {
+        "type": "integer",
+        "description": "A Unix Timestamp for when the site was listed in the dir. You can get this by running 'date +%s'"
+      },
       "feed": {
         "type": "string",
         "format": "uri",
@@ -27,6 +31,6 @@
         "description": "A URL to your button. This won't be hotlinked but may be used for batch updates of local copies."
       }
     },
-    "required": ["name", "site_url"],
+    "required": ["name", "site_url", "date_listed"],
     "additionalProperties": false
   }
