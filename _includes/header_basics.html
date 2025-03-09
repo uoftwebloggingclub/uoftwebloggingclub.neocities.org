@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+{% if page.title %}
+    <title>{{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+{% else %}
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}">
+{% endif %}
+<meta property="og:image" content="{{ site.url }}/assets/img/logo_final.gif">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<link rel="alternate" type="application/rss+xml" title="Announcements Feed" href="/announcements.atom">
+<link rel="alternate" type="application/rss+xml" title="Member Feed" href="/feed.xml">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
