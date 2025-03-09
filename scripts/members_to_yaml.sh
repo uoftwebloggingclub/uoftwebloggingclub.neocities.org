@@ -1,10 +1,14 @@
 #!/bin/bash
 # Run from root dir
 
-mkdir ".member_yaml"
+if [ ! -d ".member_yaml" ]; then
+    mkdir ".member_yaml"
+fi
 
 for filepath in _members/*; do
     filename=$(basename $filepath)
     yamlpath=$(echo ".member_yaml/$filename.yaml")
-    sed 's/---//' "$filepath" > "$yamlpath"
+    if [ "$filename" != "example.md" ]; then
+        sed 's/---//' "$filepath" > "$yamlpath"
+    fi
 done
