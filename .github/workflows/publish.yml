@@ -34,7 +34,7 @@ jobs:
           schema: scripts/member_schema.json
       
       - name: Parse feed.xml
-        run: ruby generate_feed_includes.rb
+        run: ruby scripts/generate_feed_includes.rb
 
       - name: Jekyll Build
         run: bundle exec jekyll build
