@@ -22,6 +22,9 @@ exclude:
   - runlocal.sh
   - generate_feed_includes.rb
   - _members/example.md
+  - scripts
+  - Dockerfile
+  - docker-compose.yml
 
 collections:
   - members
