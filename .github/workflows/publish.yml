@@ -23,6 +23,15 @@ jobs:
       
       - name: Bundle install
         run: bundle install
+
+      - name: Convert member files to valid YAML files
+        run: bash scripts/members_to_yaml.sh
+
+      - name: Validate Members against schema
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          file: .member_yaml/*
+          schema: scripts/member_schema.json
       
       - name: Parse feed.xml
         run: ruby generate_feed_includes.rb

@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "A short name for your website",
+        "minLength": 1
+      },
+      "site_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "A URL for your website. Do not include a trailing backslash."
+      },
+      "feed": {
+        "type": "string",
+        "format": "uri",
+        "description": "A URL for your RSS/Atom feed"
+      },
+      "button": {
+        "type": "string",
+        "description": "The filename for your 88x31 button. This should be stored in /assets/img/site_buttons/member"
+      },
+      "button_url": {
+        "type": "string",
+        "format": "uri",
+        "description": "A URL to your button. This won't be hotlinked but may be used for batch updates of local copies."
+      }
+    },
+    "required": ["name", "site_url"],
+    "additionalProperties": false
+  }
