@@ -1,0 +1,24 @@
+---
+---
+
+html {
+    background-color: teal;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgray;
+    max-width: 750px;
+    margin: 50px auto 50px auto;
+    padding: 50px 50px 50px 50px;
+    border: 1px solid teal;
+}
+
+.navbar {
+    margin: 0;
+    background-color: teal;
+    display: block;
+    a {
+        color: white;
+    }
+}
