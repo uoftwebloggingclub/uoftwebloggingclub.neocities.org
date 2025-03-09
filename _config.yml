@@ -27,8 +27,12 @@ exclude:
   - docker-compose.yml
 
 collections:
-  - members
-  - recent_feeds
+  members:
+    output: false
+  recent_feeds:
+    output: false
+  events:
+    output: true
 
 feed:
   path: /announcements.xml
