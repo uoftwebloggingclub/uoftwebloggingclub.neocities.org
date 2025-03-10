@@ -32,10 +32,16 @@ layout: default
 
 <h3 style="display:inline-block">Recent Announcements</h3><a href="/announcements.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
+{% assign lastweek_timestamp = 'now' | date: '%s' | minus: 604800 %}
 {% for post in site.posts limit:5 %}
 
     <i>{{ post.date | date: "%B %e, %Y" }}</i>
-    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.excerpt | strip_html}}<br>
+    <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.excerpt | strip_html}}
+    {% assign post_timestamp = post.date | date: '%s' | plus: 0 %}
+    {% if post_timestamp > lastweek_timestamp %}
+        <img src="/assets/img/new.gif">
+    {% endif %}
+    <br>
 
 {% endfor %}
 
