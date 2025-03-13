@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-03-08T04:15:44Z</updated>
+  <updated>2025-03-13T18:23:28Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
     <name>UofT Weblogging Club</name>
     <email>uoftwebloggingclub@gmail.com</email>
   </author>
+  <entry>
+    <title>WHWC Monthly Theme #1: Selected bookmarks</title>
+    <updated>2025-03-13T17:55:00Z</updated>
+    <id>tag:sonechka.neocities.org,2025-03-13:/blog/bookmarks</id>
+    <link href="https://sonechka.neocities.org/blog/bookmarks" rel="alternate"></link>
+    <summary type="html">in response to this month&#39;s theme for WHWC, I wanted to link some sites I like that I think are relevantly niche.</summary>
+    <author>
+      <name>Marta</name>
+    </author>
+  </entry>
   <entry>
     <title>Oscars 2025: Forced to see Sean Baker happy</title>
     <updated>2025-03-03T14:00:00Z</updated>
