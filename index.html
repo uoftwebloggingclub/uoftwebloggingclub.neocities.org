@@ -24,12 +24,6 @@ layout: default
 <p>Alternatively, our email is <a href="mailto:{{ site.email | encode_email }}">{{ site.email | replace: "@", " [at] " }} <img class="icon rss" src="/assets/img/mail_small.png"></a></p>
 <p>Follow us on Instagram at <a href="https://instagram.com/{{ site.instagram }}">{{ site.instagram }} <img class="icon rss" src="/assets/img/instagram_small.png"></a></p>
 
-<h3 class="nods">Calander</h3>
-
-<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FToronto&showPrint=0&title=WHWC&showCalendars=0&showTz=0&src={{ site.google_calander_code }}&color=%23B39DDB" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no" class="big-cal nods"></iframe>
-<iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FToronto&showPrint=0&title=WHWC&showCalendars=0&showTz=0&mode=AGENDA&src={{ site.google_calander_code }}&color=%23B39DDB" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no" class="small-cal nods"></iframe>
-<br>
-
 <h3 style="display:inline-block">Recent Announcements</h3><a href="/announcements.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
 {% assign lastweek_timestamp = 'now' | date: '%s' | minus: 604800 %}
