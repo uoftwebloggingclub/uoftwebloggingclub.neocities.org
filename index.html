@@ -25,7 +25,7 @@ layout: default
 <p>Follow us on Instagram at <a href="https://instagram.com/{{ site.instagram }}">{{ site.instagram }} <img class="icon rss" src="/assets/img/instagram_small.png"></a></p>
 
 <h2>Upcoming Events</h2>
-{% ical url: site.google_calander_ical_link only_future: true limit: 5 %}
+{% ical url: site.google_calendar_ical_link only_future: true limit: 5 %}
     {{ event.summary }}<div class="flavor">{{ event.start_time | date: "%B %e, %Y from %I:%M %p" }} - {{ event.end_time | date: "%I:%M %p" }}</div>
     {{ event.description }}
     <br><br>
