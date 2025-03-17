@@ -44,3 +44,4 @@ plugins:
   - jekyll-feed
   - liquid_reading_time
   - liquid_pluralize
+  - jekyll-ical-tag
