@@ -18,20 +18,20 @@ layout: default
 <p class="description">We are a club that fosters the creation and sharing of blogs and homebrew websites. If you are still learning the basics, you can develop your programming skills and creativity in a supportive environment. If you already have a website, you can have discussions with and draw inspiration from likeminded people (and get more eyes on your efforts).</p>
 <p><b>If you are new to the club, check out our <a href="/readme">README</a></b></p>
 
-<h3>Contact</h3>
+<h2>Contact</h2>
 
 <p>Join our Discord server <a href="{{ site.discord_invite }}">here<img class="icon rss" src="/assets/img/discord_small.png"></a></p>
 <p>Alternatively, our email is <a href="mailto:{{ site.email | encode_email }}">{{ site.email | replace: "@", " [at] " }} <img class="icon rss" src="/assets/img/mail_small.png"></a></p>
 <p>Follow us on Instagram at <a href="https://instagram.com/{{ site.instagram }}">{{ site.instagram }} <img class="icon rss" src="/assets/img/instagram_small.png"></a></p>
 
-<h3>Upcoming Events</h3>
+<h2>Upcoming Events</h2>
 {% ical url: site.google_calander_ical_link only_future: true %}
     {{ event.summary }}<div class="flavor">{{ event.start_time | date: "%B %e, %Y from %I:%M %p" }} - {{ event.end_time | date: "%I:%M %p" }}</div>
     {{ event.description }}
     <br><br>
 {% endical %}
 
-<h3 style="display:inline-block">Recent Announcements</h3><a href="/announcements.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
+<h2 style="display:inline-block">Recent Announcements</h2><a href="/announcements.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
 {% assign lastweek_timestamp = 'now' | date: '%s' | minus: 604800 %}
 {% for post in site.posts limit:5 %}
@@ -48,7 +48,7 @@ layout: default
 
 <br><a href="/archive">See all</a><br>
 
-<h3 style="display:inline-block">Recent Member Feed Updates</h3><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
+<h2 style="display:inline-block">Recent Member Feed Updates</h2><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
 {% for post in chronological_feeds limit: 10 %}
     <div class="feed-preview">
