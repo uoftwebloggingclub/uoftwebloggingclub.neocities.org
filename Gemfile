@@ -8,7 +8,7 @@ gem "jekyll"
 
 group :jekyll_plugins do
     gem 'jekyll-email-protect'
-    gem 'jekyll-target-blank', git: 'https://github.com/pirafrank/jekyll-target-blank'
+    gem 'jekyll-target-blank', git: 'https://github.com/uoftwebloggingclub/jekyll-target-blank' # https://github.com/keithmifsud/jekyll-target-blank/pull/62
     gem 'jekyll-feed'
     gem 'jekyll-ical-tag'
 end
