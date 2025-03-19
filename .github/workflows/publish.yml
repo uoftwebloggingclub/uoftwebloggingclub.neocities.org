@@ -23,10 +23,6 @@ jobs:
         with:
           ruby-version: '3.4'
           bundler-cache: true
-          cache-version: 1 # https://github.com/ruby/setup-ruby#caching-bundle-install-automatically
-      
-      - name: Bundle install
-        run: bundle install
 
       - name: Convert member files to valid YAML files
         run: bash scripts/members_to_yaml.sh
@@ -38,7 +34,7 @@ jobs:
           schema: scripts/member_schema.json
       
       - name: Parse feed.xml
-        run: ruby scripts/generate_feed_includes.rb
+        run: bundle exec ruby scripts/generate_feed_includes.rb
 
       - name: Jekyll Build
         run: bundle exec jekyll build
