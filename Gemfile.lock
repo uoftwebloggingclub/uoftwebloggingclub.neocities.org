@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/pirafrank/jekyll-target-blank
+  remote: https://github.com/uoftwebloggingclub/jekyll-target-blank
   revision: 2d85a78bcc2da24bd64c256c6182070b3eb49b53
   specs:
     jekyll-target-blank (2.0.3)
