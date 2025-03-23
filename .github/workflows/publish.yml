@@ -16,13 +16,13 @@ jobs:
 
       - uses: actions/checkout@v4
 
+      - name: Set timezone to Toronto
+        run: sudo timedatectl set-timezone "America/Toronto"
+
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3'
-          bundler-cache: false
-      
-      - name: Bundle install
-        run: bundle install
+          ruby-version: '3.4'
+          bundler-cache: true
 
       - name: Convert member files to valid YAML files
         run: bash scripts/members_to_yaml.sh
@@ -34,7 +34,7 @@ jobs:
           schema: scripts/member_schema.json
       
       - name: Parse feed.xml
-        run: ruby scripts/generate_feed_includes.rb
+        run: bundle exec ruby scripts/generate_feed_includes.rb
 
       - name: Jekyll Build
         run: bundle exec jekyll build
