@@ -30,6 +30,14 @@ body {
     border: 2px solid darkblue;
 }
 
+p {
+    margin: 0 auto 0 auto;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
 marquee {
     margin-top: 15px;
     font-size: 90%;
@@ -102,6 +110,10 @@ code {
     color: gray;
     font-style: italic;
     margin: 0;
+}
+
+.feed-preview {
+    margin: 0 auto 10px auto;
 }
 
 @media (max-width: 600px) {

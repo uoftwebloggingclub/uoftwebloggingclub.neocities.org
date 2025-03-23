@@ -8,14 +8,17 @@ gem "jekyll"
 
 group :jekyll_plugins do
     gem 'jekyll-email-protect'
-    gem 'jekyll-target-blank'
+    gem 'jekyll-target-blank', git: 'https://github.com/uoftwebloggingclub/jekyll-target-blank' # https://github.com/keithmifsud/jekyll-target-blank/pull/62
     gem 'jekyll-feed'
+    gem 'jekyll-ical-tag'
 end
 
 gem "webrick"
-gem "feed-normalizer", "~> 1.5"
-gem "fileutils", "~> 1.7"
-gem "liquid_reading_time", "~> 1.1"
-gem "liquid_pluralize", "~> 1.0"
+gem "feed-normalizer"
+gem "fileutils"
+gem "liquid_reading_time"
+gem "liquid_pluralize"
 gem "base64"
 gem "csv"
+gem "rake"
+gem "rss"

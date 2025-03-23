@@ -6,8 +6,6 @@ _site/
 .bundle/
 vendor/
 
-Gemfile.lock
-
 # Temp dirs
 _recent_feeds
 .member_yaml

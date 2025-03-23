@@ -2,7 +2,9 @@
 ---
 
 html {
-    background-color: teal;
+    background-image: url("/assets/img/event/march2025/Bliss.png");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 
 body {
@@ -10,15 +12,57 @@ body {
     background: lightgray;
     max-width: 750px;
     margin: 50px auto 50px auto;
-    padding: 50px 50px 50px 50px;
+    padding: 0;
     border: 1px solid teal;
 }
 
-.navbar {
+ul {
+    list-style-type: square;
+}
+
+.rainbow-text {
+    background-image: linear-gradient(to left, blue, green);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.top {
     margin: 0;
     background-color: teal;
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     a {
         color: white;
     }
+}
+
+pre {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    line-height: 1.1;
+    margin-left: 30%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.navbar {
+    display: inline-block;
+    padding: 5px 0 5px 0;
+}
+
+.x-button {
+    display: inline-block;
+    height: 100%;
+    color: white;
+    border: 2px ridge lightgray;
+    width: 15px;
+    text-align: center;
+}
+
+.content {
+    padding: 10px 10px 10px 10px;
 }
