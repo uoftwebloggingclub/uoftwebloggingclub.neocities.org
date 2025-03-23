@@ -1,0 +1,25 @@
+---
+---
+
+@media (max-width: 768px) {
+    body {
+        padding: 24px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; 
+        align-items: center;
+        gap: 4px;
+        a { margin-right: 0; }
+    }
+
+    h1 { font-size: 1.5em; }
+
+    p { margin: 0.75em 0;}
+
+    .logo, p img{ width: 100%; }
+
+    .rss { margin-left: 6px; }
+}
