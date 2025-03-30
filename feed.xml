@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-03-28T01:19:06Z</updated>
+  <updated>2025-03-30T16:19:16Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
@@ -14,6 +14,16 @@
     <id>tag:sageland.neocities.org,2025-03-27:/posts/first-post</id>
     <link href="https://sageland.neocities.org/posts/first-post" rel="alternate"></link>
     <summary type="html">My first post, a summary of my internet journey</summary>
+    <author>
+      <name>Unknown Author</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Monthly WHWC Challenge #1: Small Web</title>
+    <updated>2025-03-30T12:05:00Z</updated>
+    <id>tag:sageland.neocities.org,2025-03-30:/posts/monthly-whwc-challenge-1-small-web</id>
+    <link href="https://sageland.neocities.org/posts/monthly-whwc-challenge-1-small-web" rel="alternate"></link>
+    <summary type="html">Monthly WHWC challenges, March 2025. This month&#39;s theme is small web! I talked about how small web could replace social media in the (near) future.&#xA;</summary>
     <author>
       <name>Unknown Author</name>
     </author>
