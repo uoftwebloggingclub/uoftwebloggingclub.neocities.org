@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-03-30T16:19:16Z</updated>
+  <updated>2025-03-31T06:25:33Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
@@ -394,6 +394,16 @@
     <id>tag:digitalyoshixi.github.io,2024-12-25:/blog/firstpost</id>
     <link href="https://digitalyoshixi.github.io/blog/firstpost" rel="alternate"></link>
     <summary type="html">This is my very first post and the first mark on this world. Hello yellow world</summary>
+    <author>
+      <name>yoshixi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Great Gopher and Gemini Sites</title>
+    <updated>2025-03-30T00:00:00Z</updated>
+    <id>tag:digitalyoshixi.github.io,2025-03-30:/blog/gemini-sites</id>
+    <link href="https://digitalyoshixi.github.io/blog/gemini-sites" rel="alternate"></link>
+    <summary type="html">Here is a collection of cool gemini sites, blogs, art pieces.</summary>
     <author>
       <name>yoshixi</name>
     </author>
