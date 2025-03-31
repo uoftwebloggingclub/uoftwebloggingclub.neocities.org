@@ -1,6 +1,6 @@
 ---
 name: SAGE LAND
-site_url: https://sageland.neocities.org/
+site_url: https://sageland.neocities.org
 date_listed: 1743114347
 feed: https://sageland.neocities.org/rss.xml
 button: sageland.png
