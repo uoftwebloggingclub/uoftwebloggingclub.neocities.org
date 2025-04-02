@@ -64,7 +64,17 @@ end_timestamp: 1743480047
 .￣￣＼/＿＿＿/￣
 
             </pre>
-            <h4>Submissions due by the end of March! Good Luck!</h4>
+            <h4>Submissions due by the end of March! Thank you for participating!</h4>
+
+            <h3>Submissions</h3>
+
+            {% for entry in site.data.march2025 %}
+                <div class="submission">
+                    <a href="{{ entry.entry_url }}"><b>{{ entry.title }}</b></a> - <i>{{ entry.entry_url | split: "//" | last | split: "/" | first }}</i><br>
+                    {{ entry.excerpt }}
+                </div>
+                &#8201;
+            {% endfor %}
         </div>
     </body>
 </html>
