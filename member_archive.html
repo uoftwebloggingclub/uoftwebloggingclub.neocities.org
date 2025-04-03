@@ -5,7 +5,7 @@ layout: default
 <h1>Member Feed Archive</h1>
 
 {% assign postsByMonth =
-    site.recent_feeds | reverse | group_by_exp:"post", "post.date | date: '%B %Y'" %}
+    site.data.feed | group_by_exp:"post", "post.date | date: '%B %Y'" %}
 {% for month in postsByMonth %}
     <h3>{{ month.name }}</h3>
     {% for post in month.items %}

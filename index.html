@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% assign chronological_feeds = site.recent_feeds | reverse %}
-
 <marquee>
     {% for item in chronological_feeds limit: 10 %}
         <a href="{{ item.link }}">{{ item.title }}</a> - {{ item.link | split: "//" | last | split: "/" | first }}
@@ -50,7 +48,7 @@ layout: default
 
 <h2 style="display:inline-block">Recent Member Feed Updates</h2><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
-{% for post in chronological_feeds limit: 10 %}
+{% for post in site.data.feed limit: 10 %}
     <div class="feed-preview">
     <a href="{{ post.link }}">{{ post.title }}</a>
     <p class="flavor">{{ post.host }}</p>
