@@ -106,6 +106,8 @@ GEM
       jekyll (> 3)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
+    jekyll-timeago (0.15.0)
+      mini_i18n (>= 0.8.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.10.2)
@@ -124,6 +126,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.6)
     mercenary (0.4.0)
+    mini_i18n (0.9.0)
     minitest (5.25.5)
     nokogiri (1.18.4-aarch64-linux-gnu)
       racc (~> 1.4)
@@ -203,6 +206,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-ical-tag
   jekyll-target-blank!
+  jekyll-timeago
   liquid_pluralize
   liquid_reading_time
   rake
