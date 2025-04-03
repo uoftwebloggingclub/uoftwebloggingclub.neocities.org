@@ -16,7 +16,7 @@ layout: default
 <p class="description">We are a club that fosters the creation and sharing of blogs and homebrew websites. If you are still learning the basics, you can develop your programming skills and creativity in a supportive environment. If you already have a website, you can have discussions with and draw inspiration from likeminded people (and get more eyes on your efforts).</p>
 <p><b>If you are new to the club, check out our <a href="/readme">README</a></b></p>
 
-<h2>Contact</h2>
+<h2>Join Us</h2>
 
 <p>Join our Discord server <a href="{{ site.discord_invite }}">here<img class="icon rss" src="/assets/img/discord_small.png"></a></p>
 <p>Alternatively, our email is <a href="mailto:{{ site.email | encode_email }}">{{ site.email | replace: "@", " [at] " }} <img class="icon rss" src="/assets/img/mail_small.png"></a></p>
@@ -46,7 +46,7 @@ layout: default
 
 <br><a href="/archive">See all</a><br>
 
-<h2 style="display:inline-block">Recent Member Feed Updates</h2><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
+<h2 style="display:inline-block">Recent Member Posts</h2><a href="/feed.xml" target="_blank"><img class="rss" src="/assets/img/rss.png" /></a>
 <br>
 {% for post in site.data.feed limit: 10 %}
     <div class="feed-preview">
