@@ -57,3 +57,5 @@ The most important feature of your site if you want consistent readers! RSS allo
 - [Bearblog](https://bearblog.dev/) - A privacy-first, no-nonsense, super-fast blogging platform
 
 - [Mataroa](https://mataroa.blog/) - Another free minimalist blogging platform. Supports custom domains!
+
+- [Pico.sh Prose](https://pico.sh/prose) - A simple Markdown platforme you can manage completely through SSH
