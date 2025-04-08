@@ -57,6 +57,10 @@ layout: default
     {% else %}
         {{ post.excerpt | strip_html | truncate: 100}}
     {% endif %}
+    {% assign post_timestamp = post.date | date: '%s' | plus: 0 %}
+    {% if post_timestamp > lastweek_timestamp %}
+        <img src="/assets/img/new.gif">
+    {% endif %}
     </div>
 {% endfor %}
 
