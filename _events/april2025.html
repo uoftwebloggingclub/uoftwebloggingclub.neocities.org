@@ -33,3 +33,12 @@ body {
     <li>Is nostalgia a negative or positive emotion?</li>
     <li>Does nostalgia distort the past?</li>
 </ul>
+<h3>Submissions</h3>
+
+{% for entry in site.data.april2025 %}
+    <div class="submission">
+        <a href="{{ entry.entry_url }}"><b>{{ entry.title }}</b></a> - <i>{{ entry.entry_url | split: "//" | last | split: "/" | first }}</i><br>
+        {{ entry.excerpt }}
+    </div>
+    &#8201;
+{% endfor %}
