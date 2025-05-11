@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>UofT Weblogging Club RSS Feed</title>
   <id>https://uoftwebloggingclub.neocities.org/feed.xml</id>
-  <updated>2025-05-10T20:17:38Z</updated>
+  <updated>2025-05-11T04:20:44Z</updated>
   <subtitle>An RSS aggregation of all feeds for members&#39; websites for the UofT Weblogging club</subtitle>
   <link href="https://uoftwebloggingclub.neocities.org/feed.xml"></link>
   <author>
@@ -408,66 +408,6 @@
     <summary type="html">Monthly WHWC challenges, March 2025. This month&#39;s theme is small web! I talked about how small web could replace social media in the (near) future.&#xA;</summary>
     <author>
       <name>Unknown Author</name>
-    </author>
-  </entry>
-  <entry>
-    <title>First Post</title>
-    <updated>2024-12-25T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-25:/blog/firstpost</id>
-    <link href="https://digitalyoshixi.github.io/blog/firstpost" rel="alternate"></link>
-    <summary type="html">This is my very first post and the first mark on this world. Hello yellow world</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Preparing my garden to defend against zombies</title>
-    <updated>2025-05-03T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2025-05-03:/blog/garden1</id>
-    <link href="https://digitalyoshixi.github.io/blog/garden1" rel="alternate"></link>
-    <summary type="html">Throwing worms and pulling weeds out the earth</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Great Gopher and Gemini Sites</title>
-    <updated>2025-03-30T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2025-03-30:/blog/gemini-sites</id>
-    <link href="https://digitalyoshixi.github.io/blog/gemini-sites" rel="alternate"></link>
-    <summary type="html">Here is a collection of cool gemini sites, blogs, art pieces.</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Some absolutely horrible things you can say to your debug duckie</title>
-    <updated>2025-02-12T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2025-02-12:/blog/horribleducky</id>
-    <link href="https://digitalyoshixi.github.io/blog/horribleducky" rel="alternate"></link>
-    <summary type="html">Yesterday, I found a rubber duckie while I was clearing some of my brother&#39;s stuff. here are some things I said that pissed it off</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>How to make potions at home for cheap</title>
-    <updated>2024-12-26T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-26:/blog/how-to-brew-potions</id>
-    <link href="https://digitalyoshixi.github.io/blog/how-to-brew-potions" rel="alternate"></link>
-    <summary type="html">Share with all the wicked in your life</summary>
-    <author>
-      <name>yoshixi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>My Gateron Low Profile Keyboard Build Log</title>
-    <updated>2024-12-28T00:00:00Z</updated>
-    <id>tag:digitalyoshixi.github.io,2024-12-28:/blog/my-glp-build-log</id>
-    <link href="https://digitalyoshixi.github.io/blog/my-glp-build-log" rel="alternate"></link>
-    <summary type="html">Here I spend ridicuous time and energy to build an ergo mechanical keyboard</summary>
-    <author>
-      <name>yoshixi</name>
     </author>
   </entry>
 </feed>
