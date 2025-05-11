@@ -25,10 +25,9 @@ exclude:
   - scripts
   - Dockerfile
   - docker-compose.yml
+  - members
 
 collections:
-  members:
-    output: false
   events:
     output: true
 
