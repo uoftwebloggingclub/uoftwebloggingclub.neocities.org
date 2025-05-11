@@ -23,7 +23,7 @@ fi
 
 if [[ ! -d "_recent_feeds" ]] || [[ "$@" =~ "regen" ]]; then
     echo "Generating feed metadata"
-    ruby scripts/generate_feed_includes.rb
+    ruby scripts/generate_feed_json.rb
 else
     echo "Feed data found!"
 fi
