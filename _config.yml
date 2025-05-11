@@ -21,7 +21,6 @@ baseurl: /
 exclude:
   - README.md
   - runlocal.sh
-  - generate_feed_json.rb
   - _members/example.md
   - scripts
   - Dockerfile
