@@ -1,9 +1,8 @@
 #!/bin/bash
 # Run from root dir
 
-if [ ! -d ".member_yaml" ]; then
-    mkdir ".member_yaml"
-fi
+rm -rf .member_yaml
+mkdir .member_yaml
 
 for filepath in _members/*; do
     filename=$(basename $filepath)
