@@ -24,17 +24,17 @@ jobs:
           ruby-version: '3.4'
           bundler-cache: true
 
-      - name: Convert member files to valid YAML files
-        run: bash scripts/members_to_yaml.sh
-
       - name: Validate Members against schema
         uses: cardinalby/schema-validator-action@v3
         with:
-          file: .member_yaml/*
+          file: members/*
           schema: scripts/member_schema.json
       
       - name: Parse feed.xml
         run: bundle exec ruby scripts/generate_feed_json.rb
+
+      - name: Generate members.json
+        run: bundle exec ruby scripts/generate_member_json.rb
 
       - name: Jekyll Build
         run: bundle exec jekyll build

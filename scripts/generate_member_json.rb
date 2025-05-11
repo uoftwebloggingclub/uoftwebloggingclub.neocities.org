@@ -7,7 +7,7 @@ require 'net/http'
 require 'yaml'
 
 member_json = "_data/members.json"
-members_dir = ".member_yaml"
+members_dir = "members"
 feed_json = "_data/feed.json"
 
 feed = JSON.parse(File.read(feed_json))
@@ -32,11 +32,10 @@ Dir.glob(members_dir + "/*") do |filename|
 
     feed_entries = feed.select{ |entry| entry['host'] == host }.sort_by{ |entry| Date.parse(entry['date']) }
     if feed_entries.size > 0
-        puts host + " found in feed!"
         timestamp_updated = Date.parse(feed_entries.last['date']).to_time.to_i
+        
         if last_updated < timestamp_updated
             last_updated = timestamp_updated
-            puts host + " updated to " + Date.parse(feed_entries.last['date']).to_s
         end
     end
 

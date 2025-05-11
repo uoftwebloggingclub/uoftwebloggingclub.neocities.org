@@ -21,10 +21,9 @@ else
     echo "All gems installed!"
 fi
 
-if [[ ! -f "_data/feed.json" ]] || [[ ! -d ".member_yaml" ]] || [[ ! -f "_data/members.json" ]] || [[ "$@" =~ "regen" ]]; then
+if [[ ! -f "_data/feed.json" ]] || [[ ! -f "_data/members.json" ]] || [[ "$@" =~ "regen" ]]; then
     echo "Generating metadata"
     ruby scripts/generate_feed_json.rb
-    bash scripts/members_to_yaml.sh
     ruby scripts/generate_member_json.rb
 else
     echo "Feed data found!"
