@@ -4,7 +4,8 @@ layout: default
 
 <h1>Web Directory</h1>
 
-<p>You can also download an <a href="/rss.opml" download="uoftwhwc.opml">OPML file</a> containing these feeds (<a href="https://indieweb.org/OPML">What is an OPML file?</a>).</p>
+<p>You can also download an <a href="/rss.opml" download="uoftwhwc.opml">OPML file</a> containing these feeds (<a href="https://indieweb.org/OPML">What is an OPML file?</a>).</p><br>
+<p>Website are sorted from most to least recently updated (based on what we can detect).</p><br>
 {% assign members = site.data.members | sort: 'last_updated' %}
 {% for member in members reversed %}
 
