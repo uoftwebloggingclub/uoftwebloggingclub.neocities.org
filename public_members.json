@@ -10,7 +10,7 @@ permalink: members.json
                 "feed": {% if member.feed %}"{{ member.feed }}"{% else %}null{% endif %},
                 "site_button_url": {% if member.button %}"{{ site.url }}/assets/img/site_buttons/member/{{ member.button }}"{% else %}null{% endif %},
                 "source_button_url": {% if member.button_url %}"{{ member.button_url }}"{% else %}null{% endif %},
-                "last_updated": "{{ member.last_updated }}"
+                "last_updated": "{{ member.last_updated }}",
                 "name": "{{ member.name }}",
                 "url": "{{ member.site_url }}"
             }{% unless forloop.last %},{% endunless %}
