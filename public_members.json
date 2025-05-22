@@ -1,4 +1,5 @@
 ---
+permalink: members.json
 ---
 {   
     "source": "{{ site.url }}{{ page.url }}",
