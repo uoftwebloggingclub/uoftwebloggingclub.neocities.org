@@ -29,6 +29,9 @@ jobs:
         with:
           file: members/*
           schema: scripts/member_schema.json
+        
+      - name: Fetch RSS Feed
+        run: bash scripts/fetch_rss.sh
       
       - name: Parse feed.xml
         run: bundle exec ruby scripts/generate_feed_json.rb
