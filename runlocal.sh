@@ -21,6 +21,9 @@ else
     echo "All gems installed!"
 fi
 
+# Fetch rss feed from rss-combine
+bash scripts/fetch_rss.sh
+
 if [[ ! -f "_data/feed.json" ]] || [[ ! -f "_data/members.json" ]] || [[ "$@" =~ "regen" ]]; then
     echo "Generating metadata"
     ruby scripts/generate_feed_json.rb
