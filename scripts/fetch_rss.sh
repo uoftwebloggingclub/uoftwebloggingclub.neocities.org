@@ -1,1 +1,1 @@
-wget -N https://uoftwebloggingclub.github.io/rsscombine/feed.xml
+wget -N https://uoftwebloggingclub.github.io/rss-combine/feed.xml
