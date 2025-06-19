@@ -26,14 +26,16 @@ Dir.glob(members_dir + "/*") do |filename|
         begin
             response = Net::HTTP.get URI('https://neocities.org/api/info?sitename=' + username)
         rescue StandardError
-            next
+            response = False
         end
-        date_updated = JSON.parse(response)['info']['last_updated']
-        timestamp_updated = Date.parse(date_updated).to_time.to_i
+        
+        if response
+            date_updated = JSON.parse(response)['info']['last_updated']
+            timestamp_updated = Date.parse(date_updated).to_time.to_i
 
-        if last_updated < timestamp_updated
-            last_updated = timestamp_updated
-        end
+            if last_updated < timestamp_updated
+                last_updated = timestamp_updated
+            end
     end
 
     feed_entries = feed.select{ |entry| entry['host'] == host }.sort_by{ |entry| Date.parse(entry['date']) }
