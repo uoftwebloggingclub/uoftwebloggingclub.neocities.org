@@ -21,8 +21,13 @@ Dir.glob(members_dir + "/*") do |filename|
 
     if host.end_with?("neocities.org")
         # Query the neocities API for last updated date
+        sleep(0.5) # Try not to spam requests
         username = host.split(".").first
-        response = Net::HTTP.get URI('https://neocities.org/api/info?sitename=' + username)
+        begin
+            response = Net::HTTP.get URI('https://neocities.org/api/info?sitename=' + username)
+        rescue StandardError
+            next
+        end
         date_updated = JSON.parse(response)['info']['last_updated']
         timestamp_updated = Date.parse(date_updated).to_time.to_i
 
