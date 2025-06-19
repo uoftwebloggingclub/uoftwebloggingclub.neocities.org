@@ -5,6 +5,7 @@ require 'json'
 require 'uri/http'
 require 'net/http'
 require 'yaml'
+require 'date'
 
 member_json = "_data/members.json"
 members_dir = "members"
