@@ -36,6 +36,7 @@ Dir.glob(members_dir + "/*") do |filename|
             if last_updated < timestamp_updated
                 last_updated = timestamp_updated
             end
+        end
     end
 
     feed_entries = feed.select{ |entry| entry['host'] == host }.sort_by{ |entry| Date.parse(entry['date']) }
