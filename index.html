@@ -22,6 +22,10 @@ layout: default
 <p>Alternatively, our email is <a href="mailto:{{ site.email | encode_email }}">{{ site.email | replace: "@", " [at] " }} <img class="icon rss" src="/assets/img/mail_small.png"></a></p>
 <p>Follow us on Instagram at <a href="https://instagram.com/{{ site.instagram }}">{{ site.instagram }} <img class="icon rss" src="/assets/img/instagram_small.png"></a></p>
 
+<h2>Posterboard</h2>
+
+<img src="assets/img/event/html_in_the_park/2025.png" style="width: 100%">
+
 <h2>Upcoming Events</h2>
 {% ical url: site.google_calendar_ical_link only_future: true limit: 5 %}
     {{ event.summary }}<div class="flavor">{{ event.start_time | date: "%B %e, %Y from %I:%M %p" }} - {{ event.end_time | date: "%I:%M %p" }}</div>
