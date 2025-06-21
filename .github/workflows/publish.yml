@@ -2,7 +2,9 @@ name: publish
 
 on:
   push:
-    branches: [ "main", "rss-update" ]
+    branches:
+      - main
+      - rss-update
   schedule:
     - cron: '0 0 * * *' # Trigger every day
 
