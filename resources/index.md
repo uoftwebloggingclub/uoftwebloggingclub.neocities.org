@@ -10,7 +10,9 @@ layout: default
 
 The most important feature of your site if you want consistent readers! RSS allows a program called an *RSS Reader* to automatically check for updates without going through the effort of visiting individual sites! Its also used in our syndication pipeline (for example, the [Recent Feeds section](/) on the main page). 
 
--  [A Gentle Intro to RSS](https://derekkedziora.com/blog/rss-guide) - some motivation for RSS vs regular recommendation algorithms
+- [About Feeds](https://aboutfeeds.com/) - a comprehensive rundown on how to use RSS
+
+- [A Gentle Intro to RSS](https://derekkedziora.com/blog/rss-guide) - some motivation for RSS vs regular recommendation algorithms
 
 - [An Intro to RSS Feeds](https://meganesulli.com/blog/how-rss-works/) - a guide on how RSS readers and aggregation actually works
 
@@ -51,6 +53,8 @@ The most important feature of your site if you want consistent readers! RSS allo
 - [Wiby.me](https://wiby.me/) - A traditional search engine that specifically only indexes 'smaller' websites
 
 - [Marginelia]( https://search.marginalia.nu/) - Similar to wiby but with an emphasis on serendipity over direct relevance. Good for finding stuff you didn't know you wanted!
+
+- [Kagi Smallweb](https://kagi.com/smallweb) - Browse through random smallweb posts 
 
 ## Blogging Platforms
 
