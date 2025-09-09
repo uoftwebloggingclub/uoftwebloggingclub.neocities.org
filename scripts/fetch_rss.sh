@@ -1,1 +1,1 @@
-wget -N https://uoftwebloggingclub.github.io/rss-combine/feed.xml
+wget --inet4-only -N https://uoftwebloggingclub.github.io/rss-combine/feed.xml
