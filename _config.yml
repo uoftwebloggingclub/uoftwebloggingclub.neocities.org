@@ -34,6 +34,13 @@ collections:
 feed:
   path: /announcements.xml
 
+page_gen:
+  - data: 'fortune'
+    template: fortune
+    name: 'index'
+    dir: 'fortune'
+    title: 'fortune'
+
 plugins:
   - jekyll-email-protect
   - jekyll-target-blank
@@ -42,3 +49,4 @@ plugins:
   - liquid_pluralize
   - jekyll-ical-tag
   - jekyll-timeago
+  - jekyll-datapage-generator

@@ -12,6 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-ical-tag'
     gem 'jekyll-timeago'
+    gem 'jekyll-datapage-generator'
 end
 
 gem "webrick"

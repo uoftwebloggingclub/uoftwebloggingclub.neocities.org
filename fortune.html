@@ -1,0 +1,36 @@
+---
+layout: default
+title: Check your fortune!
+---
+
+<style>
+    html, body {
+        background: url("/assets/img/fortune/stars.gif");
+        border-color: white;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    a, h1, p {
+        color: white;
+    }
+
+    img {
+        display: block;
+        margin: 15px auto 15px auto;
+    }
+</style>
+
+<a id="crystal">
+    <img src="/assets/img/fortune/ball.gif">
+    <h1>Click to ponder orb</h1>
+</a>
+
+<script>
+index = Math.floor(Math.random() * 15) + 1 // Random number from 1 to 15
+document.getElementById("crystal").setAttribute("href", "/fortune/" + index)
+</script>
+
+<p>Credits to <a href="https://web.archive.org/web/20050210180847/http://de.geocities.com/rasputin4056">rasputin4056's website</a> for the assets</p>
