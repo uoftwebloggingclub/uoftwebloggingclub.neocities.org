@@ -9,7 +9,7 @@ title: Check your fortune!
         border-color: white;
     }
 
-    body {
+    #crystal-container {
         text-align: center;
     }
 
@@ -23,14 +23,16 @@ title: Check your fortune!
     }
 </style>
 
-<a id="crystal">
-    <img src="/assets/img/fortune/ball.gif">
-    <h1>Click to ponder orb</h1>
-</a>
+<div id="crystal-container">
+    <a id="crystal">
+        <img src="/assets/img/fortune/ball.gif">
+        <h1>Click to ponder orb</h1>
+    </a>
 
-<script>
-index = Math.floor(Math.random() * 15) + 1 // Random number from 1 to 15
-document.getElementById("crystal").setAttribute("href", "/fortune/" + index)
-</script>
+    <script>
+    index = Math.floor(Math.random() * 15) + 1 // Random number from 1 to 15
+    document.getElementById("crystal").setAttribute("href", "/fortune/" + index)
+    </script>
 
-<p>Credits to <a href="https://web.archive.org/web/20050210180847/http://de.geocities.com/rasputin4056">rasputin4056's website</a> for the assets</p>
+    <p>Credits to <a href="https://web.archive.org/web/20050210180847/http://de.geocities.com/rasputin4056">rasputin4056's website</a> for the assets</p>
+</div>
