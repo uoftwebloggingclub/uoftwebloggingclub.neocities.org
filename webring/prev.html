@@ -1,0 +1,25 @@
+---
+---
+{% assign webring_members = site.data.members | where: "in_webring", true %}
+<!DOCTYPE html>
+<html>
+    <div id="content">
+        <p>Redirecting to the next site in the webring...</p>
+    </div>
+    <script>
+        const webring = [
+            {% for member in webring_members %}
+                "{{ member.site_url }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+        ];
+
+        const current_site = window.location.href.split("?r=");
+        if (current_site.length > 1) {
+            const current_index = webring.indexOf(current_site[1]);
+            const next_index = (current_index - 1 + webring.length) % webring.length;
+            window.location.href = webring[next_index];
+        } else {
+            document.getElementById("content").innerHTML = "<p>Error: Current site not found in webring.</p>";
+        }
+    </script>
+</html>

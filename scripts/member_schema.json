@@ -29,6 +29,10 @@
         "type": "string",
         "format": "uri",
         "description": "A URL to your button. This won't be hotlinked but may be used for batch updates of local copies."
+      },
+      "in_webring": {
+        "type": "boolean",
+        "description": "Whether you want to be included in the webring"
       }
     },
     "required": ["name", "site_url", "date_listed"],
