@@ -29,7 +29,7 @@ Dir.glob(members_dir + "/*") do |filename|
             response = False
         end
         
-        if response
+        if response && response['result'] && response['result'] == 'success'
             date_updated = JSON.parse(response)['info']['last_updated']
             timestamp_updated = Date.parse(date_updated).to_time.to_i
 
